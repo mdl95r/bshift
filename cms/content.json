@@ -1,1 +1,12 @@
-{}
+{
+  "custom-field": "test",
+  "custom-object": {
+    "custom-line": "test-line",
+    "custom-text": "testtesttesttesttesttesttesttest"
+  },
+  "custom-list": [
+    {
+      "custom-list-item": "test-item"
+    }
+  ]
+}
