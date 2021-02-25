@@ -1,0 +1,12 @@
+- let i = 1
+section(block="hero")
+	.swiper-container
+		.swiper-wrapper
+			while (i <= 3)
+				.swiper-slide
+					div(elem="item")
+						img(src=`../img/hero/2021-${i}.jpg`, alt="" elem="img")
+				- i++
+		.swiper-pagination
+		.swiper-button-prev(elem="button-arrow")
+		.swiper-button-next(elem="button-arrow")

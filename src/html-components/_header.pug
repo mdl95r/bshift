@@ -1,0 +1,12 @@
+header(block="header")
+	.container-fluid.d-flex.align-items-center.justify-content-between
+		div(elem="wrap-items")
+			div.mr-5(elem="img-wrap")
+				img(src="img/logo/hecu_logo.png", srcset="img/logo/hecu_logo_2x.png 2x" alt="")
+			nav(elem="nav")
+				ul.js-menu-list(elem="nav-list")
+					each item in ['about project', 'about us', 'media', 'support us', 'other projects']
+						li.header__nav-item
+							a.js-nav-link.header__nav-link(href="#" data-menu=`${item}`) #{item}
+		a(href="#" elem="lang-toggle") Ru
+		button.js-burger-btn(elem="burger-btn")

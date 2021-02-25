@@ -1,0 +1,17 @@
+.other {
+	p {
+		text-align: center;
+	}
+	a {
+		display: block;
+		overflow: hidden;
+		border: 4px solid #6c7279;
+	}
+	img {
+		transform: scale3d(1.1, 1.1, 1.1);
+		&:hover {
+			transform: scale3d(1.2, 1.2, 1.2);
+			transition: .3s;
+		}
+	}
+}
