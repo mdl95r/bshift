@@ -16,7 +16,7 @@ const path = {
     pug: source_folder + "/*.pug",
     css: source_folder + "/scss/*.{scss,css}",
     js: [source_folder + "/js/*.{js,json,csv}", "!" + source_folder + "/" + components + "/_*.js"],
-    img: source_folder + "/img/**/*.{jpg,jpeg,png,gif}",
+    img: source_folder + "/img/**/*.{jpg,jpeg,png,gif,ico}",
     fonts: source_folder + "/fonts/*.{woff,woff2,ttf}",
     svg: source_folder + "/img/icons/*.svg"
   },

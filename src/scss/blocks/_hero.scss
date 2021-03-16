@@ -1,6 +1,5 @@
 .hero {
 	margin-top: 50px;
-	margin-bottom: 30px;
 	&__img {
 		@media (min-width: $lg) {
 			width: 100%;
@@ -31,6 +30,14 @@
 		display: none;
 		@media (min-width: $lg) {
 			display: block;
+		}
+	}
+	.swiper-button-next,
+	.swiper-button-prev {
+		color: #fff;
+		&:hover {
+			color: var(--swiper-navigation-color, var(--swiper-theme-color));
+			transition: .3s;
 		}
 	}
 }

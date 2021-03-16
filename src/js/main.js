@@ -1,5 +1,10 @@
 
 document.addEventListener('DOMContentLoaded', () => {
+	const burgerBtn = document.querySelector('.js-burger-btn'),
+		menuList = document.querySelector('.js-menu-list'),
+		hero = document.querySelector('.hero'),
+		links = document.querySelectorAll('.js-nav-link'),
+		currentSection = document.querySelectorAll('.js-section');
 
 	lightGallery(document.getElementById('lightgallery'), {
 		selector: '.media__item'
@@ -9,11 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		elements_selector: ".lazy",
 	});
 
-	const hero = document.querySelector('.hero');
-
 	if (hero) {
 		new Swiper('.hero .swiper-container', {
-			loop: true,
 			slidesPerView: 1,
 			spaceBetween: 0,
 			speed: 800,
@@ -29,8 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			},
 		})
 	}
-	const burgerBtn = document.querySelector('.js-burger-btn');
-	const menuList = document.querySelector('.js-menu-list');
+
 	burgerBtn.addEventListener('click', function (e) {
 		e.preventDefault();
 		this.classList.toggle('header__burger-btn_active');
@@ -42,8 +43,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		menuList.classList.remove('header__nav-list_active');
 		burgerBtn.classList.remove('header__burger-btn_active');
 	})
-
-	const links = document.querySelectorAll('.js-nav-link');
 
 	links.forEach((item) => {
 		item.addEventListener('click', (e) => {
@@ -71,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
 		})
 	}
 
-	const currentSection = document.querySelectorAll('.js-section');
 	window.addEventListener('scroll', () => {
 		const currentScroll = window.pageYOffset
 		currentSection.forEach((item) => {

@@ -17,6 +17,11 @@
 		}
 		img {
 			cursor: pointer;
+			border-radius: 20px;
+			&:hover {
+				filter: opacity(65%);
+				transition: .3s;
+			}
 		}
 	}
 	.top {

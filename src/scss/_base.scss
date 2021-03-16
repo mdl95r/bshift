@@ -8,12 +8,18 @@
     margin: 0;
 }
 
+html {
+    background-color: #38424f;
+    scrollbar-width: thin;
+    scrollbar-color: #1783e7bf transparent;
+}
+
 body {
     min-width: 320px;
     font-family: $font-family;
     color: $color-white;
     font-size: 14px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     background: url($background-img) no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,6 +31,16 @@ ul, li {
 
 h1, h2, h3, h4 {
     margin: 0;
+}
+
+h1 {
+    font-family: 'Rajdhani Semibold', sans-serif;
+    font-size: 37px;
+}
+
+h2 {
+    font-family: 'Rajdhani Semibold', sans-serif;
+    font-size: 27px;
 }
 
 img {
