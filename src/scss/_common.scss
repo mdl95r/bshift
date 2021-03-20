@@ -17,20 +17,23 @@ h3 {
     color: #fff;
 	font-size: 20px;
 	line-height: 24px;
+	margin-top: 10px;
 	margin-bottom: 15px;
 	@media (min-width: $md) {
 		font-size: 23px;
+		margin-top: 15px;
 	}
 }
 
 section:not(.hero) {
 	padding: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 15px;
 	border: 1px solid #475567;
 	border-radius: 10px;
 	background: #343d49;
 	@media (min-width: $lg) {
 		padding: 20px;
+		margin-bottom: 30px;
 		box-shadow: 0px 2px 25px 5px rgba(0, 0, 0, 0.7);
 	}
 	&:last-child {
@@ -47,7 +50,7 @@ section:not(.hero) {
 			a {
 				color: #55adff;
 				font-size: 17px;
-				letter-spacing: 1px;
+				padding: 10px;
 				&:hover {
 					color: #a6c4e0;
 					transition: .3s;

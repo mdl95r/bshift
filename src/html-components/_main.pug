@@ -1,7 +1,10 @@
 main.main
 	h1 Black Mesa: Blue Shift
 	.modlogo-wrap
-		img.lazy(data-src="img/logo/Logov0.4-FULL-ModDB_600.png", alt="hecucollective logo")
+		img.lazy(data-src="img/logo/Logov0.4-FULL-ModDB_600.png", srcset="img/logo/Logov0.4-FULL-ModDB_1200.png 2x", alt="hecucollective logo")
+	.mb-4.d-flex.justify-content-center
+		a(href="https://www.moddb.com/mods/black-mesa-blue-shift-remake" target="_blank" rel="noopener" title="View Black Mesa: Blue Shift on Mod DB")
+			img(src="https://button.moddb.com/popularity/medium/mods/49069.png" alt="Black Mesa: Blue Shift")
 	include _about-project.pug
 	include _about-us.pug
 	include _media.pug

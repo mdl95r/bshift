@@ -15,10 +15,19 @@ html(lang="en")
 		link(rel="stylesheet", href="css/main.min.css")
 		link(rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon")
 		title Black Mesa: Blue Shift
+		script(type='application/ld+json').
+			{
+				"@context": "http://www.schema.org",
+				"@type": "WebSite",
+				"name": "Black Mesa: Blue Shift",
+				"alternateName": "Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible.",
+				"url": "https://blueshift.hecucollective.com/"
+			}
 	body
 		include html-components/_header.pug
 		include html-components/_hero.pug
 		include html-components/_main.pug
+		include html-components/_cookie-popup.pug
 		script(src="js/main-min.js") 
 		script(src="js/vendors-min.js")
 		script(type="text/javascript").

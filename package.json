@@ -26,6 +26,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-webp": "^4.0.1",
     "gulp-webp-html": "^1.0.2",
+    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-pngquant": "^9.0.2",
     "lodash.template": "^4.5.0",
     "node-sass": "^4.14.0",
     "prettier": "^2.0.5",

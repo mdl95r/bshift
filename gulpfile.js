@@ -37,7 +37,6 @@ const { src, dest } = require('gulp'),
   gulp = require('gulp'),
   scss = require('gulp-sass'),
   autoprefixer = require('gulp-autoprefixer'),
-  imgmin = require('gulp-imagemin'),
   del = require('del'),
   gulpPug = require('gulp-pug'),
   groupMedia = require('gulp-group-css-media-queries'),
@@ -48,6 +47,9 @@ const { src, dest } = require('gulp'),
   beml = require('gulp-beml'),
   svgSprite = require('gulp-svg-sprite'),
   fileinclude = require('gulp-include'),
+  imgmin = require('gulp-imagemin'),
+  imageminPngquant = require('imagemin-pngquant'),
+  imageminMozjpeg = require('imagemin-mozjpeg'),
   minify = require('gulp-minify');
 
 function browserSync() {
@@ -92,14 +94,14 @@ function images() {
   return src(path.src.img)
     .pipe(dest(path.build.img))
     .pipe(src(path.src.img))
-    .pipe(
-      imgmin({
-        progressive: true,
-        svgoPlugins: [{ removeViewBox: false }],
-        interlaced: true,
-        optimizationLevel: 3,
+    .pipe(imgmin([
+      imageminPngquant(),
+      imageminMozjpeg({
+        progressive: true
       })
-    )
+    ], {
+      verbose: true
+    }))
     .pipe(dest(path.build.img))
     .pipe(browsersync.stream())
 }

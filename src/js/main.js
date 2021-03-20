@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		links = document.querySelectorAll('.js-nav-link'),
 		currentSection = document.querySelectorAll('.js-section');
 
+	initCookiePopup();
+
 	lightGallery(document.getElementById('lightgallery'), {
 		selector: '.media__item'
 	});
@@ -72,8 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 	window.addEventListener('scroll', () => {
 		const currentScroll = window.pageYOffset
+		const header = document.querySelector('.header');
+
 		currentSection.forEach((item) => {
-			const offsetTop = item.offsetTop - 50
+			const offsetTop = item.offsetTop - header.offsetHeight
 			const height = item.offsetHeight
 			const offsetBottom = offsetTop + height
 			if (currentScroll >= offsetTop && currentScroll <= offsetBottom) {
@@ -86,4 +90,22 @@ document.addEventListener('DOMContentLoaded', () => {
 			}
 		})
 	})
+
+	function initCookiePopup() {
+		const needToShowCookiePopup = !localStorage.getItem('cookieHide');
+		const cookiePopup = document.querySelector('.cookie-popup ');
+		const cookieBtn = document.querySelector('.js-cookie-popup');
+
+		if (needToShowCookiePopup) {
+			setTimeout(function () {
+				cookiePopup.classList.remove('cookie-popup_hidden')
+			}, 1000)
+			cookieBtn.addEventListener('click', function () {
+				localStorage.setItem('cookieHide', 'true');
+				cookiePopup.classList.add('cookie-popup_hide');
+			})
+		} else {
+			cookiePopup.remove();
+		}
+	}
 })
