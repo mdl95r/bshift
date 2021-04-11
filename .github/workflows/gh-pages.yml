@@ -23,7 +23,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: mdl95r/bshift/gh-pages
+        uses: ./
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
