@@ -2,6 +2,11 @@ backend:
   name: git-gateway
   repo: mdl95r/bshift
   branch: main
+  auth_type: implicit
+  app_id: a0d50d6e75dbbf8c1922
+  api_root: https://blueshift.hecucollective.com
+  base_url: https://blueshift.hecucollective.com
+  auth_endpoint: oauth/authorize
 
 media_folder: 'assets/img/uploads'
 public_folder: '/img/uploads'
