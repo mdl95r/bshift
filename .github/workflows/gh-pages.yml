@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: ./
+        uses: mdl95r/bshift/main
         with:
           hugo-version: 'latest'
 
@@ -23,7 +23,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: ./
+        uses: mdl95r/bshift/gh-pages
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
