@@ -46,10 +46,14 @@ const { src, dest } = require('gulp'),
   renameCss = require('gulp-rename'),
   beml = require('gulp-beml'),
   svgSprite = require('gulp-svg-sprite'),
-  fileinclude = require('gulp-include'),
   imgmin = require('gulp-imagemin'),
   imageminPngquant = require('imagemin-pngquant'),
   imageminMozjpeg = require('imagemin-mozjpeg'),
+  mergeStream = require('merge-stream'),
+  webpack = require('webpack'),
+  webpackStream = require('webpack-stream'),
+  plumber = require('gulp-plumber'),
+  webpackConfig = require('./webpack.config.js'),
   minify = require('gulp-minify');
 
 function browserSync() {
@@ -84,9 +88,11 @@ function pug() {
 
 function js() {
   return src(path.src.js)
-    .pipe(fileinclude())
+    .pipe(plumber())
+    .pipe(webpackStream(webpackConfig), webpack)
     .pipe(minify({ noSource: true }))
     .pipe(dest(path.build.js))
+    .pipe(dest('./static/js'))
     .pipe(browsersync.stream())
 }
 
@@ -139,6 +145,7 @@ function css() {
 
     .pipe(dest(path.build.css))
 
+    .pipe(dest('./static/css'))
     .pipe(browsersync.stream())
 }
 
@@ -146,6 +153,13 @@ function fonts() {
   return src(path.src.fonts)
     .pipe(dest(path.build.fonts))
     .pipe(browsersync.stream())
+}
+
+function copyStatic() {
+  return mergeStream([
+    gulp.src('dist/css/*.min.css').pipe(gulp.dest('./theme/static/css')),
+    gulp.src('dist/js/*-min.js').pipe(gulp.dest('./theme/static/js'))
+  ]);
 }
 
 function svg() {
@@ -196,6 +210,7 @@ exports.css = css;
 exports.html = html;
 exports.pug = pug;
 exports.svg = svg;
+exports.copyStatic = copyStatic;
 exports.build = build;
 exports.watch = watch;
 exports.default = watch;

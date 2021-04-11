@@ -1,0 +1,40 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Black Mesa: Blue Shift theme"
+DefaultContentLanguage = "en"
+
+[taxonomies]
+tag = "tags"
+
+[languages.en]
+languageName = "En"
+weight = 1
+	[[languages.en.menu.main]]
+	name = "Blog"
+	url = "/blog"
+	weight = 1
+	[[languages.en.menu.blog]]
+	name = "Home"
+	url = "/"
+	weight = 1
+	[[languages.en.menu.blog]]
+	name = "Blog"
+	url = "/blog"
+	weight = 2
+
+[languages.ru]
+languageName = "Ru"
+weight = 2
+	[[languages.ru.menu.main]]
+	name = "Блог"
+	url = "/blog"
+	weight = 1
+	[[languages.ru.menu.blog]]
+	name = "Главная"
+	url = "/"
+	weight = 1
+	[[languages.ru.menu.blog]]
+	name = "Блог"
+	url = "/blog"
+	weight = 2
+

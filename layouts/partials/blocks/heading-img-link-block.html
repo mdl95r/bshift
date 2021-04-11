@@ -1,0 +1,13 @@
+<div class="text-img-link-block">
+	<div class="row">
+		{{ range $itemVal := .cntx.value}}
+			{{- $image := resources.Get .img -}}
+			<div class="col-md-6 col-xl-4 mb-2 d-flex flex-column justify-content-between">
+				<p>{{ .title }}</p>
+				<a class="responsive-media" href="{{ .link }}" target="_blank" rel="noopener" title="{{ .alt }}">
+					<img data-src="{{ ($image.Fit "800x450 Center q80").RelPermalink }}" alt="{{ .title }}" class="lazy"/>
+				</a>
+			</div>
+		{{ end }}
+	</div>
+</div>

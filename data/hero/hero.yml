@@ -1,0 +1,16 @@
+banner:
+  - img: img/uploads/map1-top1.jpg
+    alt: desc-1
+  - img: img/uploads/map3-lockers-alt.jpg
+    alt: desc-2
+  - img: img/uploads/map1-cafe_thumb.jpg
+    alt: desc-3
+slider:
+  - img: img/uploads/2021-1.jpg
+    alt: "Black Mesa: Blue Shift Image 01"
+  - img: img/uploads/2021-2.jpg
+    alt: "Black Mesa: Blue Shift Image 02"
+  - img: img/uploads/2021-3.jpg
+    alt: "Black Mesa: Blue Shift Image 03"
+  - img: img/uploads/2021-4.jpg
+    alt: "Black Mesa: Blue Shift Image 04"

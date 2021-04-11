@@ -1,0 +1,17 @@
+<section class="hero">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			{{ range .Site.Data.hero.hero.slider}}
+			{{- $image := resources.Get .img -}}
+			<div class="swiper-slide">
+				<div class="hero__item">
+				<img data-src="{{ ($image.Fit "1920x1080 Center q80").RelPermalink }}" alt="{{ .alt }}" class="lazy"/>
+			</div>
+		  </div>
+		{{ end }}
+	  </div>
+	  <div class="swiper-pagination"></div>
+	  <div class="swiper-button-prev hero__button-arrow"></div>
+	  <div class="swiper-button-next hero__button-arrow"></div>
+	</div>
+</section>

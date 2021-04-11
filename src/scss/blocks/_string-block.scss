@@ -1,0 +1,13 @@
+.string-block {
+	color: #b7c7e2;
+	margin: 10px 0;
+	&::before {
+		display: none;
+	}
+	&_center {
+		text-align: center;
+	}
+	&_right {
+		text-align: right;
+	}
+}

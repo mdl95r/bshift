@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+	{{ partial "head.html" . }}
+	{{ partial "header.html" . }}
+	<body>
+		{{ block "main" . }}
+			Main content
+		{{ end }}
+		{{ partial "scripts-bottom.html" . }}
+		{{ partial "cookie-popup.html" . }}
+	</body>
+</html>

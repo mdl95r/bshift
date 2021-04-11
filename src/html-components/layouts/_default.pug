@@ -1,0 +1,44 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(name="description" content="Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible.")
+		meta(name="theme-color" content="#1d63a3")
+		meta(property="og:title" content="Black Mesa: Blue Shift")
+		meta(property="og:description" content="Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible.")
+		meta(property="og:image" content="/img/media/map1-top1_thumb.jpg")
+		meta(name="twitter:title" content="Black Mesa: Blue Shift")
+		meta(name="twitter:description" content="Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible.")
+		link(rel="stylesheet", href="css/vendors.min.css")
+		link(rel="stylesheet", href="css/main.min.css")
+		link(rel="shortcut icon" href="img/logo/favicon.ico" type="image/x-icon")
+		title Black Mesa: Blue Shift
+		script(type='application/ld+json').
+			{
+				"@context": "http://www.schema.org",
+				"@type": "WebSite",
+				"name": "Black Mesa: Blue Shift",
+				"alternateName": "Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible.",
+				"url": "https://blueshift.hecucollective.com/"
+			}
+	body
+		block header
+			include ../_header.pug
+		block content
+		block cookie-popup
+			include ../_cookie-popup.pug
+		script(src="js/main-min.js") 
+		//- script(type="text/javascript").
+			(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+			m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+			(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+			ym(73962811, "init", {
+					clickmap:true,
+					trackLinks:true,
+					accurateTrackBounce:true
+			});
+			</script>
+			<noscript><div><img src="https://mc.yandex.ru/watch/73962811" style="position:absolute; left:-9999px;" alt="" /></div></noscript>

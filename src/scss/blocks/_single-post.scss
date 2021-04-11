@@ -1,0 +1,18 @@
+.single-post {
+	padding: 20px 0 30px;
+    margin-top: 50px;
+	.container {
+		@media (min-width: 1200px) {
+			max-width: 900px;
+		}
+		@media (min-width: 1300px) {
+			max-width: 1140px;
+		}
+	}
+	&__wrap {
+		padding: 20px;
+		border: 1px solid #475567;
+		border-radius: 10px;
+		background: #343d49;
+	}
+}

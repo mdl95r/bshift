@@ -1,0 +1,16 @@
+<header class="header">
+	<div class="container-fluid d-flex align-items-center justify-content-between">
+		<div class="header__wrap-items">
+			<div class="mr-5 header__img-wrap">
+				<img src="/img/logo/hecu_logo.png" srcset="/img/logo/hecu_logo_2x.png 2x" alt="logo HecuCollective">
+			</div>
+			{{ partial "nav.html" . }}
+		</div>
+		{{ if .IsTranslated }}
+			{{ range .Translations }}
+				<a href="{{ .Permalink }}" class="header__lang-toggle">{{ .Language }}</a>
+			{{ end }}
+		{{ end }}
+	  	<button class="js-burger-btn header__burger-btn"></button>
+	</div>
+</header>

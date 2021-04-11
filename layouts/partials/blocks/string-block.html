@@ -1,0 +1,7 @@
+{{ if eq .align "center" }}
+	<p class="string-block string-block_center">{{ .string }}</p>
+{{ else if eq .align "right"}}
+	<p class="string-block string-block_right">{{ .string }}</p>
+{{ else }}
+	<p class="string-block">{{ .string }}</p>
+{{ end }}
