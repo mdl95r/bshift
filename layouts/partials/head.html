@@ -1,0 +1,52 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="/img/logo/favicon.ico" type="image/x-icon">
+	
+	{{- $title := ( .Title ) -}}
+	{{- $siteTitle := ( .Site.Title ) -}}
+
+	{{ if eq .Language.LanguageName "En" }}
+		{{- if .IsHome -}}
+			<title>{{ .Site.Data.settings.seo.en.title }}</title>
+		{{- else -}}
+			<title>{{ $title }} - {{ .Site.Data.settings.seo.en.title }}</title>
+		{{- end -}}
+		<meta name="description" content="{{ .Site.Data.settings.seo.en.description }}">
+		<meta property="og:title" content=" {{ .Site.Data.settings.seo.en.title }} ">
+		<meta property="og:description" content="{{ .Site.Data.settings.seo.en.description }}">
+		<meta name="twitter:title" content="{{ .Site.Data.settings.seo.en.title }}">
+		<meta name="twitter:description" content="{{ .Site.Data.settings.seo.en.description }}">
+	{{ end }}
+
+	{{ if eq .Language.LanguageName "Ru" }}
+		{{- if .IsHome -}}
+			<title>{{ .Site.Data.settings.seo.ru.title }}</title>
+		{{- else -}}
+			<title>{{ $title }} - {{ .Site.Data.settings.seo.ru.title }}</title>
+		{{- end -}}
+		<meta name="description" content="{{ .Site.Data.settings.seo.ru.description }}">
+		<meta property="og:title" content=" {{ .Site.Data.settings.seo.ru.title }} ">
+		<meta property="og:description" content="{{ .Site.Data.settings.seo.ru.description }}">
+		<meta name="twitter:title" content="{{ .Site.Data.settings.seo.ru.title }}">
+		<meta name="twitter:description" content="{{ .Site.Data.settings.seo.ru.description }}">
+	{{ end }}
+	
+	<meta property="og:type" content="website"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+    <meta property="og:image" content="/img/media/map1-top1_thumb.jpg">
+	<meta name="twitter:url" content="{{ .Permalink }}">
+	<meta name="theme-color" content="#1d63a3">
+	<link rel="stylesheet" href="/css/vendors.min.css">
+    <link rel="stylesheet" href="/css/main.min.css">
+	<script type="application/ld+json">
+		{
+			"@context": "http://www.schema.org",
+			"@type": "WebSite",
+			"name": "{{ $title }} - {{ if eq .Language.LanguageName "En" }} {{ .Site.Data.settings.seo.en.title }} {{ else }} {{ .Site.Data.settings.seo.ru.title }} {{ end }}",
+			"alternateName": "{{ if eq .Language.LanguageName "En" }} {{ .Site.Data.settings.seo.en.description }} {{ else }} {{ .Site.Data.settings.seo.ru.description }} {{ end }}",
+			"url": "{{ .Permalink }}"
+		}
+	</script>
+</head>

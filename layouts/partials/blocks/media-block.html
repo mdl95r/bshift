@@ -1,0 +1,10 @@
+<div class="media-block js-lightgallery">
+	{{ range $index, $itemVal := .cntx.value}}
+		{{- $image := resources.Get .img -}}
+		<div class="media-block__item">
+			<div class="responsive-media media-block__img" data-src="{{ ($image.Fit "1920x1080 Center q80").RelPermalink}}">
+				<img data-src="{{ ($image.Fit "1000x562 Center q80").RelPermalink}}" alt="{{ .alt }}" class="lazy"/>
+			</div>
+		</div>
+	{{ end }}
+</div>

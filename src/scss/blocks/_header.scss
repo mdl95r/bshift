@@ -6,12 +6,14 @@
 	left: 0;
 	z-index: 1000;
 	width: 100%;
-	height: 50px;
+	min-height: 50px;
 	background: $primary-bg-color;
 	&__wrap-items {
 		display: flex;
+		align-items: center;
 	}
 	&__img-wrap {
+		flex-shrink: 0;
 		img {
 			width: 60px;
 		}
@@ -35,6 +37,7 @@
 			}
 			@media (min-width: $lg) {
 				display: flex;
+				flex-wrap: wrap;
 				position: static;
 				top: 0;
 				left: 0;
@@ -53,10 +56,11 @@
 			font-family: 'Rajdhani Semibold',sans-serif;
 			color: $color-white;
 			text-transform: uppercase;
+			line-height: 1.3;
 			padding: 16px;
 			border-bottom: 1px solid #909090;
 			@media (min-width: $lg) {
-				display: inline;
+				display: inline-block;
 				border: none;
 			}
 			&:hover {

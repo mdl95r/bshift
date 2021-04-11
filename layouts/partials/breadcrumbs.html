@@ -1,0 +1,38 @@
+<ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
+	<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+		<a href="{{ .Site.Home.Permalink }}" title="{{ if eq .Language.LanguageName "Ru" }}Главная{{ else }}Home{{ end }}" itemprop="item">
+			{{ if eq .Language.LanguageName "Ru" }}
+				<span itemprop="name">Главная</span>
+			{{ else }}
+				<span itemprop="name">Home</span>
+			{{ end }}
+			<meta itemprop="position" content="1">
+		</a>
+	</li>
+	{{- $scratch := newScratch -}}
+	{{- $scratch.Set "contentIndex" 2 -}}
+	{{ template "breadcrumb" dict "currentPage" .Page "id" .UniqueID "scratch" $scratch }}
+</ul>
+
+{{ define "breadcrumb" }}
+	{{ if .currentPage.Parent }}
+		{{ if ne .currentPage.Parent .IsHome }}
+			{{ template "breadcrumb" dict "currentPage" .currentPage.Parent "scratch" $.scratch }}
+		{{ end }}
+		{{ if eq .id .currentPage.UniqueID }}
+			<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<span itemprop="name" title="{{ .currentPage.Title }}">{{ .currentPage.Title }}</span>
+				<meta itemprop="position" content="{{ $.scratch.Get "contentIndex" }}">
+				{{- $.scratch.Add "contentIndex" 1 -}}
+			</li>
+		{{ else }}
+			<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+				<a href="{{ .currentPage.Permalink }}">
+					<span itemprop="name" title="{{ .currentPage.Title }}">{{ .currentPage.Title }}</span>
+					<meta itemprop="position" content="{{ $.scratch.Get "contentIndex" }}">
+					{{- $.scratch.Add "contentIndex" 1 -}}
+				</a>
+			</li>
+		{{ end }}
+	{{ end }}
+{{ end }}

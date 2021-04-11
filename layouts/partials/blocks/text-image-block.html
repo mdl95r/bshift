@@ -1,0 +1,11 @@
+{{- $image := resources.Get .img -}}
+<div class="text-image-block">
+	<div class="row">
+		<div class="col-md-6{{ if .reverse }} order-md-1{{ end }}">
+			{{ partial "blocks/image-block.html" . }}
+		</div>
+		<div class="col-md-6">
+			{{ partial "blocks/text-block.html" . }}
+		</div>
+	</div>
+</div>

@@ -5,8 +5,16 @@
 @import "blocks/header";
 @import "blocks/main";
 @import "blocks/hero";
-@import "blocks/about-project";
-@import "blocks/media";
-@import "blocks/support";
-@import "blocks/_other-projects.scss";
 @import "blocks/cookie-popup";
+@import "blocks/post-list";
+@import "blocks/pagination";
+@import "blocks/single-post";
+@import "blocks/breadcrumbs";
+
+@import "blocks/media-block";
+@import "blocks/text-img-link-block";
+@import "blocks/text-block";
+@import "blocks/text-image-block";
+@import "blocks/string-block";
+@import "blocks/youtube";
+@import "blocks/image-block";

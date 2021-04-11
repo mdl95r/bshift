@@ -1,0 +1,48 @@
+.media-block {
+	@media (min-width: $xl) {
+		.media-block__item  {
+			float: left;
+		}
+		&:nth-of-type(odd) {
+			.media-block__item {
+				display: block;
+				width: 32%;
+				&:nth-of-type(1) {
+					width: 66%;
+					margin-right: 20px;
+				}
+			}
+		}
+		&:nth-of-type(even) {
+			position: relative;
+			padding-right: 66%;
+			.media-block__item {
+				width: 94%;
+				&:nth-of-type(3) {
+					position: absolute;
+					top: 0;
+					right: 0;
+					width: 66%;
+					margin: 0;
+				}
+			}
+		}
+		&::after { 
+			display: block;
+			content: "";
+			clear: both;
+		}
+	}
+	&__item {
+		width: 100%;
+		margin: 0 0 13px 0;
+	}
+	img {
+		cursor: pointer;
+		border-radius: 20px;
+		&:hover {
+			filter: opacity(65%);
+			transition: .3s;
+		}
+	}
+}

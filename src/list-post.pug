@@ -1,0 +1,38 @@
+extends html-components/layouts/_default.pug
+include html-components/_pagination.pug
+
+block content
+	- let x = 0
+	section(block="posts")
+		.container
+			ul(block="breadcrumbs")
+				li(elem="item")
+					a(href="#") Home
+				li(elem="item")
+					a(href="#") Blog
+			h1.v-h Blog
+			div(elem="list")
+				while (x <= 5)
+					div(elem="item")
+						.row 
+							.col-lg-5
+								.responsive-media
+									img(src="img/20180327231512_1.jpg", alt="post img alt")
+							.col-lg-7
+								div(elem="body-wrap")
+									h2(elem="title") Markdown Syntax Guide
+									p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, nulla reprehenderit itaque molestiae odit iure...
+									a(href="#" elem="read-btn") Read more
+									div(elem="info")
+										time(elem="date" datetime="2021-03-21") 21.03.2021
+											i
+										div(elem="tags")
+											i
+											div(elem="tags-list")
+												a(href="#") #tag1
+												a(href="#") #tag2
+												a(href="#") #tag3
+												a(href="#") #tag4
+					- x++
+			+pagination
+			

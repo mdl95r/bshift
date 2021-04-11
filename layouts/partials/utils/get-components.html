@@ -1,0 +1,41 @@
+{{ if eq .type "headingImgLink" }}
+	{{ partial "blocks/heading-img-link-block.html" (dict "cntx" . ) }}
+{{ end }}
+
+{{ if eq .type "titleBlock" }}
+	{{ partial "blocks/title-block.html" . }}
+{{ end }}
+
+{{ if eq .type "textBlock" }}
+	{{ partial "blocks/text-block.html" . }}
+{{ end }}
+
+{{ if eq .type "listLinks" }}
+	{{ partial "blocks/list-links-block.html" (dict "cntx" . ) }}
+{{ end }}
+
+{{ if eq .type "textImageBlock" }}
+	{{ partial "blocks/text-image-block.html" . }}
+{{ end }}
+
+{{ if eq .type "htmlBlock" }}
+	{{ partial "blocks/html-block.html" . }}
+{{ end }}
+
+{{ if eq .type "stringBlock" }}
+	{{ partial "blocks/string-block.html" . }}
+{{ end }}
+
+{{ if eq .type "mediaBlock" }}
+	{{ partial "blocks/media-block.html" (dict "cntx" . ) }}
+{{ end }}
+
+{{ if eq .type "youtubeBlock" }}
+	{{ partial "blocks/youtube-block.html" . }}
+{{ end }}
+
+{{ if eq .type "imageBlock" }}
+	{{ partial "blocks/image-block.html" . }}
+{{ end }}
+
+
