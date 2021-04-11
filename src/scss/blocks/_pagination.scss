@@ -1,0 +1,36 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	font-family: $font-family2;
+	text-transform: uppercase;
+	margin-top: 30px;
+	a {
+		color: #fff;
+		padding: 10px;
+		&:hover {
+			background: #164671;
+			transition: background .2s;
+		}
+	}
+	&__prev {
+		margin-right: 20px;
+		background: #1d63a3;
+	}
+	&__next {
+		margin-left: 20px;
+		background: #1d63a3;
+	}
+	&__pages {
+		display: flex;
+		align-items: center;
+	}
+	&__page {
+		background: #1d63a3;
+		&:not(:last-child) {
+			margin-right: 10px;
+		}
+		&_active {
+			background: #164671;
+		}
+	}
+}

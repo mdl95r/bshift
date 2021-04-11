@@ -1,0 +1,7 @@
+<ul class="list-links-block">
+	{{ range $itemVal := .cntx.value}}
+		<li>
+			<a href="{{ .link }}" target="_blank" title="{{ .text }}" rel="noopener">{{ .text }}</a>
+		</li>
+	{{ end }}
+</ul>

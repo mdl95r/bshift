@@ -1,0 +1,17 @@
+{{ define "main" }}
+	<div class="single-post">
+		<div class="container">
+			<div class="single-post__wrap">
+				{{ partial "breadcrumbs.html" . }}
+				<h1>{{ .Title }}</h1>
+				<time class="date" datetime="{{ dateFormat "2006-01-02" .Date }}">
+					<i></i>
+					{{- dateFormat "2006-01-02" .Date -}}
+				</time>
+				{{ range .Params.blocks }}
+					{{ partial "utils/get-components.html" . }}
+				{{ end }}
+			</div>
+		</div>
+	</div>
+{{ end }}

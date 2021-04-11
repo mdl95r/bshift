@@ -1,0 +1,27 @@
+.breadcrumbs {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	&__item {
+		position: relative;
+		font-size: 11px;
+		text-transform: uppercase;
+		&:not(:last-child) {
+			padding-right: 25px;
+			margin-right: 20px;
+			&:after {
+				position: absolute;
+				top: calc(50% - 5px);
+				right: -5px;
+				content: '';
+				border: 5px solid transparent;
+				border-left-color: #1d63a3;
+			}
+		}
+		&:last-child {
+			a {
+				color: #cacaca;
+			}
+		}
+	}
+}

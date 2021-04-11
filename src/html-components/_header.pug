@@ -5,8 +5,11 @@ header(block="header")
 				img(src="img/logo/hecu_logo.png", srcset="img/logo/hecu_logo_2x.png 2x" alt="logo HecuCollective")
 			nav(elem="nav")
 				ul.js-menu-list(elem="nav-list")
-					each item in ['about project', 'about us', 'media', 'support us', 'other projects']
+					each item in ['about project', 'about us', 'media', 'support us', 'other projects', 'blog']
 						li.header__nav-item
-							a.js-nav-link.header__nav-link(href="#" data-menu=`${item}`) #{item}
+							if item !== 'blog'
+								a.js-nav-link.header__nav-link(href="#" data-menu=`${item}`) #{item}
+							else
+								a.header__nav-link(href="/list-post.html" ) #{item}
 		a.d-none(href="#" elem="lang-toggle") Ru
 		button.js-burger-btn(elem="burger-btn")

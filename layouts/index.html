@@ -1,0 +1,16 @@
+{{ define "main" }}
+		{{ partial "hero.html" . }}
+		<main class="main">
+			{{ partial "logo-section.html"  . }}
+			{{ range $item := .Params.sections }}
+				{{ if not .hide }}
+					<section class="js-section section" data-section="{{ $item.title }}">
+						<h2>{{ $item.title }}</h2>
+						{{ range $items := $item.blocks}}
+							{{ partial "utils/get-components.html" . }}
+						{{ end }}
+					</section>
+					{{ end }}
+			{{ end }}
+		</main>
+{{ end }}

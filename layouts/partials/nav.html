@@ -1,0 +1,24 @@
+<nav class="header__nav">
+	<ul class="js-menu-list header__nav-list">
+		{{- if .IsHome -}}
+			{{ range $item := .Params.sections}}
+				{{ if not .hide }} 
+					<li class="header__nav-item">
+						<a class="js-nav-link header__nav-link" href="#" data-menu="{{ $item.title }}">{{ $item.title }}</a>
+					</li>
+				{{ end }}
+			{{ end }}
+			{{ range .Site.Menus.main }}
+				<li class="header__nav-item">
+					<a class="header__nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+				</li>
+			{{ end }}
+		{{ else }}
+			{{ range .Site.Menus.blog }}
+				<li class="header__nav-item">
+					<a class="header__nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+				</li>
+			{{ end }}
+		{{ end }}
+	</ul>
+</nav>

@@ -9,9 +9,13 @@
 }
 
 html {
-    background-color: #38424f;
     scrollbar-width: thin;
     scrollbar-color: #1783e7bf transparent;
+    &[lang="ru"] {
+        body, h1, h2, h3, h3, h4, h5, h6, a {
+            font-family: $font-family;
+        }
+    }
 }
 
 body {
@@ -20,7 +24,7 @@ body {
     color: $color-white;
     font-size: 14px;
     letter-spacing: 1px;
-    background: url($background-img) no-repeat;
+    background: url($background-img) no-repeat #38424f;
     background-size: cover;
     background-attachment: fixed;
 }

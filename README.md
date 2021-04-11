@@ -1,12 +1,13 @@
-## Here are the sources of the site https://blueshift.hecucollective.com
+## Here are sources of the site https://blueshift.hecucollective.com
 ### Stack:
 Hugo static site generator & Netlify CMS
  
-### Run the build of the local server:
- npm start
- 
-### In order to run a local server on hugo, open the theme folder and start hugo server
-
-### In the future i'm plan to automate the process, it will be enough to run the npm start command
+### Run build of the local server:
+npm start
+### Run build of the hugo server:
+npm run start:hugo
+### Run build of the proxy for Netlify CMS:
+npm run start proxy
+### ~~ In the future i'm plan to automate the process, it will be enough to run the npm start command ~~ ### done.
  
  

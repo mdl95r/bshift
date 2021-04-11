@@ -1,0 +1,30 @@
+.text-img-link-block {
+	margin: 20px 0;
+	p {
+		color: #b7c7e2;
+		font-size: 20px;
+		text-align: center;
+		margin-bottom: 10px;
+		@media (min-width: $md) {
+			font-size: 23px;
+		}
+		&:before {
+			display: none;
+		}
+	}
+	a {
+		display: block;
+		border: 3px solid #475e74;
+		border-radius: 12px;
+		&:hover {
+			border: 3px solid #55adff;
+			transition: .3s;
+		}
+	}
+	img {
+		&:hover {
+			filter: opacity(65%);
+			transition: .3s;
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{{- $image := resources.Get .img -}}
+<div class="image-block">
+	<img data-src="{{ ($image.Fill "800x640 Center q80").RelPermalink }}" alt="{{ .alt }}" title="{{ .alt }}" class="lazy"/>
+</div>

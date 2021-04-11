@@ -1,0 +1,103 @@
+.posts {
+	padding: 20px 0 30px;
+	margin-top: 50px;
+	h2 {
+		text-align: left;
+		padding: 0;
+
+		@media (max-width: $md) {
+			font-size: 18px;
+		}
+	}
+	.container {
+		@media (min-width: 1200px) {
+			max-width: 900px;
+		}
+		@media (min-width: 1300px) {
+			max-width: 1140px;
+		}
+	}
+	&__list {
+		padding: 30px;
+		border-radius: 12px;
+		background: #343d49;
+	}
+	&__item {
+		&:not(:last-child) {
+			padding-bottom: 20px;
+			margin-bottom: 20px;
+			border-bottom: 1px solid #556273
+		}
+		.responsive-media {
+			padding-bottom: 60%;
+		}
+	}
+	&__body-wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: baseline;
+		flex-direction: column;
+		height: 100%;
+		padding-top: 15px;
+		@media (min-width: $lg) {
+			padding: 15px;
+		}
+		p {
+			color: #d4d4d4;
+			line-height: 20px;
+			margin-bottom: 10px;
+			&:before {
+				display: none;
+			}
+		}
+	}
+	h3 {
+		font-size: 18px;
+		text-align: left;
+		margin-top: 10px;
+		margin-bottom:	5px;
+	}
+	&__read-btn {
+		display: inline-block;
+		font-family: $font-family2;
+		text-transform: uppercase;
+		padding: 10px 15px;
+		border-radius: 12px;
+		background: #1d63a3;
+		&:hover {
+			background: #1b5487;
+			transition: background .2s;
+		}
+	}
+	&__info {
+		color: #b7c7e2;
+		margin-top: 20px;
+		@media (min-width: $md) {
+			display: flex;
+		}
+	}
+	&__tags {
+		position: relative;
+		padding-left: 30px;
+		@media (max-width: $md) {
+			margin-top: 15px;
+		}
+		i {
+			position: absolute;
+			top: -4px;
+			left: 0;
+			width: 20px;
+			height: 20px;
+			background: #fff;
+			mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg data-name='Layer 2'%3E%3Cg data-name='pricetags'%3E%3Cpath d='M12.87 22a1.84 1.84 0 01-1.29-.53l-6.41-6.42a1 1 0 01-.29-.61L4 5.09a1 1 0 01.29-.8 1 1 0 01.8-.29l9.35.88a1 1 0 01.61.29l6.42 6.41a1.82 1.82 0 010 2.57l-7.32 7.32a1.82 1.82 0 01-1.28.53zm-6-8.11l6 6 7.05-7.05-6-6-7.81-.73z'/%3E%3Ccircle cx='10.5' cy='10.5' r='1.5'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+		}
+		a {
+			display: inline-block;
+			color: #fff;
+			margin-right: 5px;
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}

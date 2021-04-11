@@ -1,0 +1,6 @@
+{{- $image := resources.Get .Params.img -}}
+<h1 class="v-h">{{ .Site.Data.settings.seo.title }}</h1>
+<div class="modlogo-wrap">
+	<img class="lazy" data-src="{{ ($image.Fit "600x323 q80").RelPermalink }}" srcset={{ ($image.Fit "1200x645 q80").RelPermalink }} alt="{{ .Params.alt }}"/>
+</div>
+<div class="mb-4 d-flex justify-content-center"><a href="https://www.moddb.com/mods/black-mesa-blue-shift-remake" target="_blank" rel="noopener" title="View Black Mesa: Blue Shift on Mod DB"><img src="https://button.moddb.com/popularity/medium/mods/49069.png" alt="Black Mesa: Blue Shift"></a></div>

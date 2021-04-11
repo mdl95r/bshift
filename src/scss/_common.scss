@@ -1,4 +1,4 @@
-h1 {
+.v-h {
 	position: absolute;
 	width: 1px;
 	height: 1px;
@@ -8,6 +8,13 @@ h1 {
 	border: 0;
 	clip: rect(0 0 0 0);
 }
+h1 {
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	@media (max-width: $lg) {
+		font-size: 23px;
+	}
+}
 h2 {
 	padding: 0 10px;
 	margin-bottom: 20px;
@@ -15,7 +22,7 @@ h2 {
 h3 {
 	font-family: $font-family2;
     color: #fff;
-	font-size: 20px;
+	font-size: 17px;
 	line-height: 24px;
 	margin-top: 10px;
 	margin-bottom: 15px;
@@ -25,7 +32,7 @@ h3 {
 	}
 }
 
-section:not(.hero) {
+section:not(.hero, .posts) {
 	padding: 15px;
 	margin-bottom: 15px;
 	border: 1px solid #475567;
@@ -40,36 +47,23 @@ section:not(.hero) {
 		padding-bottom: 40px;
 		margin-bottom: 0;
 	}
-	ul {
-		text-align: center;
-		margin-bottom: 0;
-		li {
-			&:not(:last-child) {
-				margin-bottom: 10px;
-			}
-			a {
-				color: #55adff;
-				font-size: 17px;
-				padding: 10px;
-				&:hover {
-					color: #a6c4e0;
-					transition: .3s;
-				}
+}
+.list-links-block {
+	text-align: center;
+	margin-bottom: 0;
+	li {
+		&:not(:last-child) {
+			margin-bottom: 10px;
+		}
+		a {
+			color: #55adff;
+			font-size: 17px;
+			padding: 10px;
+			&:hover {
+				color: #a6c4e0;
+				transition: .3s;
 			}
 		}
-	}
-}
-
-p {
-	color: #b7c7e2;
-	line-height: 24px;
-	&:not(:last-child) {
-		margin-bottom: 10px;
-	}
-	&:before {
-		content: "...";
-		user-select: none;
-		color: transparent;
 	}
 }
 
@@ -80,7 +74,6 @@ strong {
 ::-webkit-scrollbar {
     width: 7px;
     height: 7px;
-    border-radius: var(--border-rounded);
 }
 
 ::-webkit-scrollbar-track {
@@ -104,4 +97,32 @@ strong {
 
 :focus {
     outline: -webkit-focus-ring-color auto 0;
+}
+
+.responsive-media {
+	position: relative;
+	padding-bottom: 53%;
+	overflow: hidden;
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		object-fit: cover;
+	}
+}
+
+.date {
+	position: relative;
+	color: #fff;
+	padding-left: 30px;
+	margin-right: 20px;
+	i {	
+		position: absolute;
+		top: -4px;
+		left: 0;
+		width: 20px;
+		height: 20px;
+		background: #fff;
+		mask-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cg data-name='Layer 2'%3E%3Cg data-name='calendar'%3E%3Cpath d='M18 4h-1V3a1 1 0 00-2 0v1H9V3a1 1 0 00-2 0v1H6a3 3 0 00-3 3v12a3 3 0 003 3h12a3 3 0 003-3V7a3 3 0 00-3-3zM6 6h1v1a1 1 0 002 0V6h6v1a1 1 0 002 0V6h1a1 1 0 011 1v4H5V7a1 1 0 011-1zm12 14H6a1 1 0 01-1-1v-6h14v6a1 1 0 01-1 1z'/%3E%3Ccircle cx='8' cy='16' r='1'/%3E%3Cpath d='M16 15h-4a1 1 0 000 2h4a1 1 0 000-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	}
 }

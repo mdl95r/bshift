@@ -1,10 +1,16 @@
 .hero {
 	margin-top: 50px;
-	&__img {
-		@media (min-width: $lg) {
+	&__item {
+		img {
 			width: 100%;
-			height: 500px;
+			height: 180px;
 			object-fit: cover;
+			@media (min-width: $md) {
+				height: 350px;
+			}
+			@media (min-width: $lg) {
+				height: 500px;
+			}
 		}
 	}
 	.swiper-pagination-bullet {
