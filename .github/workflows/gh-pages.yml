@@ -18,7 +18,6 @@ jobs:
         uses: mdl95r/bshift
         with:
           hugo-version: 'latest'
-          # extended: true
 
       - name: Build
         run: hugo --minify
