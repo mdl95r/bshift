@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: mdl95r/bshift
-  branch: main
+  branch: gh-pages
   base_url: https://blueshift.hecucollective.com
 
 media_folder: 'assets/img/uploads'
