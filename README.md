@@ -8,6 +8,6 @@ npm start
 npm run start:hugo
 ### Run build of the proxy for Netlify CMS:
 npm run start proxy
-### ~~ In the future i'm plan to automate the process, it will be enough to run the npm start command ~~ ### done.
+### ~~In the future i'm plan to automate the process, it will be enough to run the npm start command~~
  
  
