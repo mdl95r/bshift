@@ -1,9 +1,7 @@
 backend:
   name: git-gateway
-  repo: mdl95r/test-cms-netlify
+  repo: mdl95r/bshift
   branch: main
-
-local_backend: true
 
 media_folder: 'assets/img/uploads'
 public_folder: '/img/uploads'
