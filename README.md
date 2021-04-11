@@ -6,7 +6,7 @@ Hugo static site generator & Netlify CMS
 npm start
 ### Run build of the hugo server:
 npm run start:hugo
-### Run build of the proxy for Netlify CMS:
+### Run build of the proxy for Netlify CMS (for local develop):
 npm run start proxy
 ### ~~ In the future i'm plan to automate the process, it will be enough to run the npm start command ~~ ### done.
  
