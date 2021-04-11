@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
-        uses: /
+        uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
 
@@ -23,7 +23,8 @@ jobs:
         run: hugo --minify
 
       - name: Deploy
-        uses: /
+        uses: peaceiris/actions-gh-pages@v3
         with:
+          external_repository: mdl95r/mdl95r.github.io
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
