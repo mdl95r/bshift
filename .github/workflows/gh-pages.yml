@@ -26,5 +26,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           external_repository: mdl95r/mdl95r.github.io
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: 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
           publish_dir: ./public
