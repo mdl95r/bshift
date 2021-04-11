@@ -25,6 +25,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          personal_token: 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
           external_repository: mdl95r/mdl95r.github.io
-          personal_token: ${{ secrets.TOKEN }}
           publish_dir: ./public
