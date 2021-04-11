@@ -95,7 +95,7 @@ sections:
             img: img/uploads/bo_800.jpg
             link: https://www.moddb.com/mods/black-mesa-black-ops
   - title: our team
-    hide: false
+    hide: true
     blocks:
       - type: textImageBlock
         img: img/uploads/20180327231512_1.jpg
