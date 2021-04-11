@@ -2,7 +2,6 @@ backend:
   name: git-gateway
   repo: mdl95r/bshift
   branch: main
-  site_domain: mdl95r.github.io
 
 media_folder: 'assets/img/uploads'
 public_folder: '/img/uploads'
