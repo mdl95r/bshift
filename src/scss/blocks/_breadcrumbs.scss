@@ -6,6 +6,7 @@
 		position: relative;
 		font-size: 11px;
 		text-transform: uppercase;
+		line-height: 15px;
 		&:not(:last-child) {
 			padding-right: 25px;
 			margin-right: 20px;
@@ -19,7 +20,6 @@
 			}
 		}
 		&:last-child {
-			line-height: 15px;
 			a {
 				color: #cacaca;
 			}
