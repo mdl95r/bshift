@@ -1,7 +1,7 @@
 const youtubeLazy = () => {
 	const videos = document.querySelectorAll('.youtube');
 	for (let i = 0; i < videos.length; i++) {
-		videos[i].style.backgroundImage = 'url(http://i.ytimg.com/vi/' + videos[i].id + '/hq720.jpg)';
+		videos[i].style.backgroundImage = 'url(https://i.ytimg.com/vi/' + videos[i].id + '/hq720.jpg)';
 		videos[i].style.backgroundSize = 'contain';
 		let play = document.createElement("div");
 		play.setAttribute("class", "play");

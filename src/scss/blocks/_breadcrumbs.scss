@@ -6,6 +6,9 @@
 		position: relative;
 		font-size: 11px;
 		text-transform: uppercase;
+		@media (max-width: $sm) {
+			line-height: 15px;
+		}
 		&:not(:last-child) {
 			padding-right: 25px;
 			margin-right: 20px;

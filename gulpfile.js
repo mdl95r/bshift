@@ -157,8 +157,8 @@ function fonts() {
 
 function copyStatic() {
   return mergeStream([
-    gulp.src('dist/css/*.min.css').pipe(gulp.dest('./theme/static/css')),
-    gulp.src('dist/js/*-min.js').pipe(gulp.dest('./theme/static/js'))
+    gulp.src('dist/css/*.min.css').pipe(gulp.dest('./static/css')),
+    gulp.src('dist/js/*-min.js').pipe(gulp.dest('./static/js'))
   ]);
 }
 
