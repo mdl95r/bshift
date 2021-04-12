@@ -36,6 +36,14 @@ collections:
           - {label: Название сайта (title), name: title, widget: string, required: true, i18n: true}
           - {label: Описание сайта (Description), name: description, widget: string, required: true, i18n: true}
           - {label: Картинка для соцсетей, name: img, widget: image, required: true, hint: Картинка будет показываться при отправке сайта в соцсетях, i18n: true}
+      - file: data/settings/analytics.yml
+        label: Аналитика сайта
+        name: analytics
+        i18n: true
+        editor:
+          preview: false
+        fields:
+          - {label: Яндекс метрика, name: ym, widget: string, required: false, hint: Идентификатор метрики, 73962811, i18n: duplicate, pattern: ['/^(\d){8}/g', id должен иметь 8 цифр ] }
   - name: sliders
     description: Рекомендую не загружать изображения в формате png, из-за плохой оптимизации данных форматов.
     label: Слайдер на главной странице
