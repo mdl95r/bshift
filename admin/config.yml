@@ -1,7 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
   repo: mdl95r/bshift
-  branch: main
+  branch: gh-pages
+  base_url: https://nameless-lowlands-78666.herokuapp.com
 
 locale: 'ru'
 
