@@ -10,8 +10,13 @@ image:
 date: 2021-04-13T19:29:50.379Z
 blocks:
   - type: textBlock
-    text: We are happy to say to you that we have released the first chapter of our
-      new project! We put a lot of effort in it, using all the experience of
-      previous years in creating modifications. Our composer, Daver, have
-      ***released his third track for this chapter on Youtube!***
+    text: >-
+      We are happy to say to you that we have released the first chapter of our
+      new project! 
+
+
+      We put a lot of effort in it, using all the experience of previous years in creating modifications. 
+
+
+      Our composer, Daver, have ***released his third track for this chapter on Youtube!***
 ---
