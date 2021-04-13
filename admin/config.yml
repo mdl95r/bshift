@@ -67,78 +67,90 @@ collections:
     folder: "content/blog"
     slug: '{{slug}}'
     encoding: "unicode"
+    i18n: true
     create: true
     fields:
-      - {label: "Название поста", name: "title", widget: "string", required: true}
-      - {label: "Описание поста", name: "desc", widget: "string", required: true}
-      - {label: "Превью поста", name: "image", widget: "object", required: true, fields: [{label: "Изображение", name: "img", widget: "image"}, {label: "Описание изображения", name: "alt", widget: "string"}, ]}
-      - {label: "Дата публикации", name: "date", required: true, widget: "datetime"}
+      - {label: "Название поста", name: "title", widget: "string", required: true, i18n: true}
+      - {label: "Описание поста", name: "desc", widget: "string", required: true, i18n: true}
+      - {label: "Превью поста", name: "image", widget: "object", required: true, i18n: true, fields: [{label: "Изображение", name: "img", widget: "image", i18n: true}, {label: "Описание изображения", name: "alt", widget: "string", i18n: true}, ]}
+      - {label: "Дата публикации", name: "date", required: true, widget: "datetime", i18n: true}
       - label: 'Блоки'
         name: 'blocks'
+        i18n: true
         widget: 'list'
         types:
           - label: 'Блок заголовок'
             name: 'titleBlock'
+            i18n: true
             fields:
               - label: 'Заголовок'
                 name: value
+                i18n: true
                 widget: 'object'
                 fields:
-                  - { label: 'Название заголовка', name: 'title', widget: 'string'}
-                  - { label: 'Выберите тип заголовка', name: 'level', widget: 'select', options: ["2", "3", "4", "5"]}
+                  - { label: 'Название заголовка', name: 'title', widget: 'string', i18n: true}
+                  - { label: 'Выберите тип заголовка', name: 'level', widget: 'select', options: ["2", "3", "4", "5"], i18n: true }
           - label: 'Блок текст'
             name: 'textBlock'
+            i18n: true
             widget: 'object'
             fields:
-              - {label: "Текст", name: "text", widget: "markdown"}
+              - {label: "Текст", name: "text", widget: "markdown", i18n: true}
           - label: Картинка и текст в две колонки
             name: textImageBlock
+            i18n: true
             widget: object
             summary: "Картинка и текст в две колонки"
             fields:
-              - { label: 'Картинка', name: 'img', widget: 'image'}
-              - { label: 'Описание картинки', name: 'alt', widget: 'string'}
+              - { label: 'Картинка', name: 'img', widget: 'image', i18n: true}
+              - { label: 'Описание картинки', name: 'alt', widget: 'string', i18n: true}
               - { label: 'Текст', name: 'text', widget: 'markdown'}
-              - { label: 'Вывести текст, затем картинку', name: 'reverse', widget: 'boolean', required: false}
+              - { label: 'Вывести текст, затем картинку', name: 'reverse', widget: 'boolean', required: false, i18n: true}
           - label: Картинка
             name: imageBlock
+            i18n: true
             widget: object
             summary: "Картинка"
             fields:
-              - { label: 'Картинка', name: 'img', widget: 'image'}
-              - { label: 'Описание картинки', name: 'alt', widget: 'string'}
+              - { label: 'Картинка', name: 'img', widget: 'image', i18n: true}
+              - { label: 'Описание картинки', name: 'alt', widget: 'string', i18n: true}
           - label: 'Список ссылок'
             name: 'listLinks'
+            i18n: true
             widget: 'list'
             fields:
               - label: Ссылка
                 name: value
                 widget: list
                 fields:
-                  - { label: 'Ссылка', name: 'link', widget: 'string'}
-                  - { label: 'Текст', name: 'text', widget: 'string'}
+                  - { label: 'Ссылка', name: 'link', widget: 'string', i18n: true}
+                  - { label: 'Текст', name: 'text', widget: 'string', i18n: true}
           - label: Youtube блок
             name: youtubeBlock
+            i18n: true
             widget: list
             fields:
-              - { label: 'Идентификатор видео', name: 'id', widget: 'string', hint: 'Например: dQw4w9WgXcQ'}
+              - { label: 'Идентификатор видео', name: 'id', widget: 'string', hint: 'Например: dQw4w9WgXcQ', i18n: true }
           - label: Блок строка
             name: stringBlock
+            i18n: true
             widget: object
             fields:
-              - { label: 'Введите строку', name: 'string', widget: 'string'}
-              - { label: 'Выравнивание', name: 'align', widget: 'select', options: ["left", "center", "right"], default: "left", hint: 'Слева, по центру, справа'}
+              - { label: 'Введите строку', name: 'string', widget: 'string', i18n: true}
+              - { label: 'Выравнивание', name: 'align', widget: 'select', options: ["left", "center", "right"], default: "left", hint: 'Слева, по центру, справа', i18n: true}
           - label: Медиа блок
             name: mediaBlock
+            i18n: true
             widget: list
             summary: "Медиа блок"
             fields:
               - label: Изображение
                 name: value
+                i18n: true
                 widget: list
                 fields:
-                  - { label: 'Картинка', name: 'img', widget: 'image'}
-                  - { label: 'Описание изображения', name: 'alt', widget: 'string'}
+                  - { label: 'Картинка', name: 'img', widget: 'image', i18n: true }
+                  - { label: 'Описание изображения', name: 'alt', widget: 'string', i18n: true }
   - name: "pages"
     label: "Страницы"
     description: В силу технических причин, страницы сделаны иначе
