@@ -6,11 +6,11 @@
 			</div>
 			{{ partial "nav.html" . }}
 		</div>
-		<!-- {{ if .IsTranslated }}
+		{{ if .IsTranslated }}
 			{{ range .Translations }}
 				<a href="{{ .Permalink }}" class="header__lang-toggle">{{ .Language }}</a>
 			{{ end }}
-		{{ end }} -->
+		{{ end }}
 	  	<button class="js-burger-btn header__burger-btn"></button>
 	</div>
 </header>
