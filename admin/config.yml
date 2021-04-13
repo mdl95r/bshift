@@ -3,6 +3,8 @@ backend:
   repo: mdl95r/bshift
   branch: main
 
+locale: 'ru'
+
 media_folder: 'assets/img/uploads'
 public_folder: '/img/uploads'
 
