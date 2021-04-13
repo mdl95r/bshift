@@ -12,10 +12,8 @@ blocks:
   - type: textBlock
     text: >-
       We are happy to say to you that we have released the first chapter of our
-      new project! 
-
-
-      We put a lot of effort in it, using all the experience of previous years in creating modifications. 
+      new project! We put a lot of effort in it, using all the experience of
+      previous years in creating modifications. 
 
 
       Our composer, Daver, have ***released his third track for this chapter on Youtube!***
