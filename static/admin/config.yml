@@ -166,7 +166,7 @@ collections:
             name: sections
             widget: list
             fields:
-            - {label: Название, name: title, widget: string, default: section name, pattern: ['[a-zA-Z]', "Название должно быть английскими буквами"] ,hint: Название должно быть английскими буквами}
+            - {label: Название, name: title, widget: string, default: section name}
             - {label: Скрыть секцию, name: hide, widget: boolean, required: false}
             - label: 'Блоки'
               name: 'blocks'
@@ -263,7 +263,7 @@ collections:
             name: sections
             widget: list
             fields:
-            - {label: Название, name: title, widget: string, default: section name, pattern: ['[a-zA-Z]', "Название должно быть английскими буквами"] ,hint: Название должно быть английскими буквами}
+            - {label: Название, name: title, widget: string, default: имя секции}
             - {label: Скрыть секцию, name: hide, widget: boolean, required: false}
             - label: 'Блоки'
               name: 'blocks'
