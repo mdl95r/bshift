@@ -22,9 +22,6 @@ blocks:
     text: We already have some good voice actors. In this chapter you can hear some
       of them - *UnstoppableGiant* voicing Otis and *bONES!!* voicing the tram
       vox system!
-  - type: imageBlock
-    img: /img/uploads/1.2.jpg
-    alt: Living Quarters Outbound
   - type: titleBlock
     value:
       title: "You can download the mod here:"
