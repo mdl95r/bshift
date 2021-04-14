@@ -3,6 +3,7 @@ backend:
   repo: mdl95r/bshift
   branch: main
   base_url: https://nameless-lowlands-78666.herokuapp.com
+  open_authoring: true
 
 locale: 'ru'
 
