@@ -63,7 +63,7 @@ collections:
               - {label: Описание изображения, name: alt, widget: string}
   - name: blog
     label: Посты
-    description: Посты пишутся сразу на двух языках (EN, RU)
+    description: Посты пишутся сразу на двух языках (EN, RU). "Пост" Blog является не постом, а служит системным файлом, поэтому его лучше не трогать.
     folder: "content/blog"
     slug: '{{slug}}'
     encoding: "unicode"
