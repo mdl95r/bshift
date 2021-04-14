@@ -3,7 +3,7 @@ title: "Black Mesa: Blue Shift"
 img: img/uploads/Logov0.4-FULL-ModDB_1200.png
 alt: "Black Mesa: Blue Shift logo"
 sections:
-  - title: About project
+  - title: О проекте
     blocks:
       - type: textBlock
         text: >-
@@ -21,7 +21,7 @@ sections:
           level: "3"
       - type: youtubeBlock
         id: WBhejZNBve0
-  - title: About us
+  - title: О нас
     blocks:
       - type: textBlock
         text: >-
@@ -43,7 +43,7 @@ sections:
             text: Discord
           - link: https://www.youtube.com/channel/UCjoL6M9_8-93vmxjO4W5R9w
             text: Daver's Youtube Channel
-  - title: Support us
+  - title: Поддержите нас
     blocks:
       - type: titleBlock
         value:
@@ -60,7 +60,7 @@ sections:
       - type: stringBlock
         align: center
         string: Ваша поддержка крайне важна для нас!
-  - title: Media
+  - title: Медиа
     blocks:
       - type: mediaBlock
         value:
@@ -78,7 +78,7 @@ sections:
             alt: "Black Mesa: Blue Shift - Insecurity"
           - alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
             img: img/uploads/map1-cafe_1080.jpg
-  - title: More projects
+  - title: Еще проекты
     blocks:
       - type: headingImgLink
         value:
