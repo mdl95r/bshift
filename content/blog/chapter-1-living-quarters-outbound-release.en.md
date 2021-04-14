@@ -4,7 +4,7 @@ desc: We are happy to say to you that we have released the first chapter of our
   new project! We put a lot of effort in it, using all the experience of
   previous years in creating modifications.
 image:
-  img: /img/uploads/20180327231512_1.jpg
+  img: /img/uploads/2021-3.jpg
   alt: "Chapter 1: Living Quarters Outbound Release"
 date: 2021-04-13T19:29:50.379Z
 blocks:
@@ -41,4 +41,37 @@ blocks:
 
 
       If you have downloaded it from the Workshop, the files should be there (near the directory where the game located):
+
+
+      ![Directory of the mod](https://media.moddb.com/images/members/5/4214/4213492/profile/Screenshot_2021-03-16_110727.png "Directory of the mod")
+
+
+      1. Download the mod and extract it's files from .zip *(NO NEED IF YOU DOWNLOADED FROM WORKSHOP)*;\
+
+      2. Move the files into your Black Mesa root directory *(*\steamapps\common\Black Mesa)*, so *"bshift"* folder could be in the same directory as *"bms"* folder;\
+
+      3. Launch the mod via one of the .bat files (*bshift.bat* for the new UI *(RECOMMENDED)*, *bshift_oldUI.bat* for the old UI *(NOT YET READY)*).\
+
+      3-alt. Alternatively you can set Black Mesa launch properties in Steam to "-game bshift" and launch it via Black Mesa Steam shortcut or from Steam itself.
+
+
+      !!!This mod supports English language only for now, so set you game/Steam to English in order to evade any possible problems!!!
+
+
+      possible problems!!!
+
+
+      ![Living Quarters Outbound](https://media.moddb.com/images/members/5/4214/4213492/profile/2.2.png "Living Quarters Outbound")
+
+
+      Relive the Black Mesa Incident as Gordon Freeman's best friend - Barney Calhoun! This first chapter will show you the start of what looked like a typical work day at Black Mesa.
+
+
+      ![Living Quarters Outbound](https://media.moddb.com/images/members/5/4214/4213492/profile/3.1.png "Living Quarters Outbound")
+
+
+      This can be a showcase of our current capabilities in mapping, soundtrack and voice acting. We would also like you to share your opinion on whether you like what we have done or not.
+
+
+      ![Living Quarters Outbound](https://media.moddb.com/images/members/5/4214/4213492/profile/41.png "Living Quarters Outbound")
 ---
