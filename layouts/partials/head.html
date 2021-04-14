@@ -40,13 +40,4 @@
 	<meta name="theme-color" content="#1d63a3">
 	<link rel="stylesheet" href="/css/vendors.min.css">
     <link rel="stylesheet" href="/css/main.min.css">
-	<script type="application/ld+json">
-		{
-			"@context": "http://www.schema.org",
-			"@type": "WebSite",
-			"name": "{{ $title }} - {{ if eq .Language.LanguageName "En" }} {{ .Site.Data.settings.seo.en.title }} {{ else }} {{ .Site.Data.settings.seo.ru.title }} {{ end }}",
-			"alternateName": "{{ if eq .Language.LanguageName "En" }} {{ .Site.Data.settings.seo.en.description }} {{ else }} {{ .Site.Data.settings.seo.ru.description }} {{ end }}",
-			"url": "{{ .RelPermalink }}"
-		}
-	</script>
 </head>

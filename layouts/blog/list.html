@@ -9,10 +9,12 @@
 					  <div class="row"> 
 						<div class="col-lg-5">
 							<div class="responsive-media">
-								{{- $image := resources.Get .Params.image.img -}}
-								<a href="{{ .RelPermalink }}">
-									<img data-src="{{ ($image.Fill "630x378 Center q80").RelPermalink }}" alt="{{ .Params.image.alt }}" title="{{ .Params.image.alt }}" class="lazy"/>
-								</a>
+								{{- if .Params.image.img -}}
+									{{ $image := resources.Get .Params.image.img }}
+									<a href="{{ .RelPermalink }}">
+										<img data-src="{{ ($image.Fill "630x378 Center q80").RelPermalink }}" alt="{{ .Params.image.alt }}" title="{{ .Params.image.alt }}" class="lazy"/>
+									</a>
+								{{- end -}}
 							</div>
 						</div>
 						<div class="col-lg-7">

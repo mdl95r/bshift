@@ -5,7 +5,7 @@ desc: We are happy to say to you that we have released the first chapter of our
   previous years in creating modifications.
 image:
   img: /img/uploads/20180327231512_1.jpg
-  alt: alt en
+  alt: "Chapter 1: Living Quarters Outbound Release"
 date: 2021-04-13T19:29:50.379Z
 blocks:
   - type: textBlock

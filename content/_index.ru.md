@@ -47,7 +47,7 @@ sections:
     blocks:
       - type: titleBlock
         value:
-          title: "У нас есть несколько мест, где вы можете пожертвовать нам:"
+          title: "У нас есть несколько мест, где вы можете пожертвовать нас:"
           level: "3"
       - type: listLinks
         value:
