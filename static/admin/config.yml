@@ -3,6 +3,9 @@ backend:
   repo: mdl95r/test-cms-netlify
   branch: main
 
+display_url: https://blueshift.hecucollective.com/
+logo_url: https://blueshift.hecucollective.com/img/logo/favicon.ico
+
 local_backend: true
 
 media_folder: 'assets/img/uploads'
