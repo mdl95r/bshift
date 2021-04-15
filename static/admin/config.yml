@@ -4,8 +4,7 @@ backend:
   branch: main
   base_url: https://nameless-lowlands-78666.herokuapp.com
 
-display_url: https://blueshift.hecucollective.com/
-logo_url: https://blueshift.hecucollective.com/img/logo/favicon.ico
+display_url: https://blueshift.hecucollective.com
 locale: 'ru'
 
 media_folder: 'assets/img/uploads'
