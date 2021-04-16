@@ -21,7 +21,7 @@ blocks:
   - type: textBlock
     text: We already have some good voice actors. In this chapter you can hear some
       of them - *UnstoppableGiant* voicing Otis and *bONES!!* voicing the tram
-      vox system!
+      **vox** system!
   - type: titleBlock
     value:
       title: "You can download the mod here:"
