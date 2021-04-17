@@ -7,7 +7,6 @@ backend:
 display_url: https://blueshift.hecucollective.com
 locale: 'ru'
 
-publish_mode: editorial_workflow
 media_folder: 'assets/img/uploads'
 public_folder: '/img/uploads'
 
