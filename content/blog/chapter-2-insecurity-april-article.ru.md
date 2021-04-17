@@ -61,6 +61,9 @@ blocks:
   - type: stringBlock
     align: left
     string: "И вот небольшая часть сцены с лифтом:"
+  - type: imageBlock
+    img: /img/uploads/bselevfix.gif
+    alt: "Insecurity - Black Mesa: Blue Shift"
   - type: textBlock
     text: "И последняя вещь, о которой мы хотели бы сказать: в скором времени мы
       хотим развивать наш Patreon. Мы будем выкладывать там эксклюзивный контент
