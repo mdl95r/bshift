@@ -32,4 +32,7 @@ blocks:
         link: https://www.moddb.com/mods/black-mesa-blue-shift-remake/downloads/black-mesa-blue-shift-chapter-1-living-quarters-outbound
       - link: https://steamcommunity.com/sharedfiles/filedetails/?id=2424633574
         text: Steam Workshop
+  - type: imageBlock
+    img: /img/uploads/2.2.png
+    alt: Living Quarters Outbound
 ---
