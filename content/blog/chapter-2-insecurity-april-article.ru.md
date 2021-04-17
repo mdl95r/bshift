@@ -57,7 +57,7 @@ blocks:
     align: left
     string: "А так же доступен новый саундтрек от Daver (скоро будет доступен):"
   - type: youtubeBlock
-    id: QRMx_o15wsE&
+    id: QRMx_o15wsE
   - type: stringBlock
     align: left
     string: "И вот небольшая часть сцены с лифтом:"

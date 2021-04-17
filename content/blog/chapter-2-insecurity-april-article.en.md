@@ -54,7 +54,7 @@ blocks:
     align: left
     string: "Here is the new soundtrack from Daver (Will be available soon):"
   - type: youtubeBlock
-    id: QRMx_o15wsE&t
+    id: QRMx_o15wsE
   - type: stringBlock
     align: left
     string: "And small bit of the elevator:"
