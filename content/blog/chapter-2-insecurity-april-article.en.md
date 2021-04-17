@@ -28,11 +28,11 @@ blocks:
     img: /img/uploads/insecurity-fab.jpg
     alt: "Insecurity - Black Mesa: Blue Shift"
   - type: textBlock
-    text: '"We would like to note that in the process of making this chapter we
-      found some inconsistencies in location of some places that conflict with
-      the Black Mesa locations. In order to fix it, we will try adding some
-      small extentions. Because of that, we would like to hear your opinion on
-      such actions. You can see a screenshot of one of those new places there:"'
+    text: "We would like to note that in the process of making this chapter we found
+      some inconsistencies in location of some places that conflict with the
+      Black Mesa locations. In order to fix it, we will try adding some small
+      extentions. Because of that, we would like to hear your opinion on such
+      actions. You can see a screenshot of one of those new places there:"
   - type: imageBlock
     img: /img/uploads/insecurity-ex-cyvo1.jpg
     alt: "Insecurity Extension - Black Mesa: Blue Shift"
@@ -44,10 +44,10 @@ blocks:
     img: /img/uploads/fountainmodel.jpg
     alt: "Drinking Fountain Model - Black Mesa: Blue Shift"
   - type: textImageBlock
-    text: '"There are more things in our plans: we want to remake hands viewmodel
-      and pistol animation. Menu still needs a lot of things to change(mostly
+    text: "There are more things in our plans: we want to remake hands viewmodel and
+      pistol animation. Menu still needs a lot of things to change(mostly
       visually), and HUD. We also want to release M4 and Beretta models from
-      Azure Sheep separately, as they were requested by a lot of you."'
+      Azure Sheep separately, as they were requested by a lot of you."
     img: /img/uploads/insecurity-fab-bp.jpg
     alt: "Insecurity - Black Mesa: Blue Shift"
   - type: stringBlock
@@ -65,7 +65,7 @@ blocks:
           <img style="margin: 0 auto;" src="https://media.moddb.com/images/members/5/4214/4213492/profile/bselevfix.gif" alt="Insecurity - Black Mesa: Blue Shift" title="Insecurity - Black Mesa: Blue Shift" width="452" height="254">
          </div> 
   - type: textBlock
-    text: "\"And the last thing that we want to tell you: we want to make our
-      Patreon more alive, so we'll try to release a bit more of exclusive
-      development content there.\""
+    text: "And the last thing that we want to tell you: we want to make our Patreon
+      more alive, so we'll try to release a bit more of exclusive development
+      content there."
 ---
