@@ -94,4 +94,6 @@ sections:
             alt: "Black Mesa: Black Ops"
             img: img/uploads/bo_800.jpg
             link: https://www.moddb.com/mods/black-mesa-black-ops
+      - type: textBlock
+        text: test
 ---
