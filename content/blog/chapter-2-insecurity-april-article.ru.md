@@ -61,9 +61,12 @@ blocks:
   - type: stringBlock
     align: left
     string: "И вот небольшая часть сцены с лифтом:"
-  - type: imageBlock
-    img: https://media.moddb.com/images/members/5/4214/4213492/profile/bselevfix.gif
-    alt: "Insecurity - Black Mesa: Blue Shift"
+  - type: htmlBlock
+    code:
+      code: '<img
+        src="https://media.moddb.com/images/members/5/4214/4213492/profile/bselevfix.gif"
+        alt="Insecurity - Black Mesa: Blue Shift" title="Insecurity - Black
+        Mesa: Blue Shift" width="452" height="254">'
   - type: textBlock
     text: '"И последняя вещь, о которой мы хотели бы сказать: в скором времени мы
       хотим развивать наш Patreon. Мы будем выкладывать там эксклюзивный контент

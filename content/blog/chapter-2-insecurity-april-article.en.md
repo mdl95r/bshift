@@ -58,6 +58,12 @@ blocks:
   - type: stringBlock
     align: left
     string: "And small bit of the elevator:"
+  - type: htmlBlock
+    code:
+      code: '<img
+        src="https://media.moddb.com/images/members/5/4214/4213492/profile/bselevfix.gif"
+        alt="Insecurity - Black Mesa: Blue Shift" title="Insecurity - Black
+        Mesa: Blue Shift" width="452" height="254">'
   - type: textBlock
     text: "\"And the last thing that we want to tell you: we want to make our
       Patreon more alive, so we'll try to release a bit more of exclusive
