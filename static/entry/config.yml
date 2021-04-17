@@ -153,6 +153,12 @@ collections:
                 fields:
                   - { label: 'Картинка', name: 'img', widget: 'image', i18n: true }
                   - { label: 'Описание изображения', name: 'alt', widget: 'string', i18n: true }
+          - label: 'html block'
+            name: 'htmlBlock'
+            i18n: true
+            widget: 'object'
+            fields:
+              - { label: 'Введите код', name: 'code', widget: 'code', i18n: true }
   - name: "pages"
     label: "Страницы"
     description: В силу технических причин, страницы сделаны иначе
