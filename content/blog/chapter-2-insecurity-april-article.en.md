@@ -19,11 +19,12 @@ blocks:
     img: /img/uploads/insecurity-fab-bp2.jpg
     alt: "Insecurity - Black Mesa: Blue Shift"
   - type: textBlock
-    text: Development of the second chapter, "Insecurity", is in full swing now.
-      Currently we are close to finishing the base geometry. We plan to
-      implement some interactions with the environment and NPCs. Thanks to the
-      help from Crowbar Collective's voice actors, we will now be able to bring
-      a lot of new guard and male scientists lines and scripted scenes!
+    text: >-
+      Development of the second chapter, "Insecurity", is in full swing now.
+      Currently we are close to finishing the base geometry. 
+
+
+      We plan to implement some interactions with the environment and NPCs. Thanks to the help from Crowbar Collective's voice actors, we will now be able to bring a lot of new guard and male scientists lines and scripted scenes!
   - type: imageBlock
     img: /img/uploads/insecurity-fab.jpg
     alt: "Insecurity - Black Mesa: Blue Shift"
