@@ -64,20 +64,20 @@ sections:
     blocks:
       - type: mediaBlock
         value:
-          - img: img/uploads/chapter1-an.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-          - img: img/uploads/map1-ug1alt_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-          - img: img/uploads/map1-ug1_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
+          - img: /img/uploads/insecurity-fab.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
+          - img: /img/uploads/insecurity-fab-bp2.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
+          - img: /img/uploads/insecurity-fab-bp.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
       - type: mediaBlock
         value:
-          - img: img/uploads/map2-otis_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
+          - img: /img/uploads/insecurity-ex-cyvo1.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
           - img: img/uploads/map3-lockers-alt_1080.jpg
             alt: "Black Mesa: Blue Shift - Insecurity"
-          - alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-            img: img/uploads/map1-cafe_1080.jpg
+          - alt: "Drinking Fountain Model - Black Mesa: Blue Shift"
+            img: /img/uploads/fountainmodel.jpg
   - title: Еще проекты
     blocks:
       - type: headingImgLink
