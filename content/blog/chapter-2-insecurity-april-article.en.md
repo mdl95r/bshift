@@ -61,8 +61,8 @@ blocks:
   - type: htmlBlock
     code:
       code: >-
-        <div style="margin: 0 auto;">
-          <img src="https://media.moddb.com/images/members/5/4214/4213492/profile/bselevfix.gif" alt="Insecurity - Black Mesa: Blue Shift" title="Insecurity - Black Mesa: Blue Shift" width="452" height="254">
+        <div>
+          <img style="margin: 0 auto;" src="https://media.moddb.com/images/members/5/4214/4213492/profile/bselevfix.gif" alt="Insecurity - Black Mesa: Blue Shift" title="Insecurity - Black Mesa: Blue Shift" width="452" height="254">
          </div> 
   - type: textBlock
     text: "\"And the last thing that we want to tell you: we want to make our
