@@ -6,8 +6,8 @@ banner:
   - img: img/uploads/map1-cafe_thumb.jpg
     alt: desc-3
 slider:
-  - img: img/uploads/2021-1.jpg
-    alt: "Black Mesa: Blue Shift Image 01"
+  - img: /img/uploads/insecurity-ex-cyvo1.jpg
+    alt: "Insecurity Extension - Black Mesa: Blue Shift"
   - img: img/uploads/2021-2.jpg
     alt: "Black Mesa: Blue Shift Image 02"
   - img: img/uploads/2021-3.jpg
