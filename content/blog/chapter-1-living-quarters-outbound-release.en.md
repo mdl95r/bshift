@@ -40,9 +40,12 @@ blocks:
 
 
       If you have downloaded it from the Workshop, the files should be there (near the directory where the game located):
-
-
-      ![Directory of the mod](/img/uploads/screenshot_2021-03-16_110727.png "Directory of the mod")
+  - type: htmlBlock
+    code:
+      code: >-
+        <div style="margin: 20px 0;">
+          <img style="margin: 0 auto;" src="https://media.moddb.com/images/members/5/4214/4213492/profile/Screenshot_2021-03-16_110727.png" alt="Directory of the mod" title="Directory of the mod" width="363" height="51">
+        </div>
   - type: textBlock
     text: >-
       1. Download the mod and extract it's files from .zip *(NO NEED IF YOU
