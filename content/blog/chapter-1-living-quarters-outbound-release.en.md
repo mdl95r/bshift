@@ -42,7 +42,7 @@ blocks:
       If you have downloaded it from the Workshop, the files should be there (near the directory where the game located):
 
 
-      ![Directory of the mod](/img/uploads/screenshot_2021-03-16_110727.png)
+      ![Directory of the mod](/img/uploads/screenshot_2021-03-16_110727.png "Directory of the mod")
   - type: textBlock
     text: >-
       1. Download the mod and extract it's files from .zip *(NO NEED IF YOU
