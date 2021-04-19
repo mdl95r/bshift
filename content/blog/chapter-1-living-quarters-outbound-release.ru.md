@@ -36,4 +36,21 @@ blocks:
 
 
       Если вы скачали его из Steam Workshop, файлы должны быть там (рядом с каталогом, в котором находится игра):
+  - type: htmlBlock
+    code:
+      code: >-
+        <div style="margin: 20px 0;">
+          <img style="margin: 0 auto;" src="https://media.moddb.com/images/members/5/4214/4213492/profile/Screenshot_2021-03-16_110727.png" alt="Directory of the mod" title="Directory of the mod" width="363" height="51">
+        </div>
+  - type: textBlock
+    text: >-
+      1. Загрузите мод и извлеките его файлы из .zip (НЕ НУЖНО, ЕСЛИ ВЫ
+      ЗАГРУЖАЛИ ИЗ МАСТЕРСКОЙ);
+
+      2. Переместите файлы в корневой каталог Black Mesa (* \ steamapps \ common \ Black Mesa), чтобы папка «bshift» могла находиться в том же каталоге, что и папка «bms»;
+
+      3. Запустите мод через один из файлов .bat (bshift.bat для нового пользовательского интерфейса (РЕКОМЕНДУЕТСЯ), bshift_oldUI.bat для старого пользовательского интерфейса (НЕ ГОТОВ)).
+         3-альт. В качестве альтернативы вы можете установить свойства запуска Black Mesa в Steam на «-game bshift» и запускать его через ярлык Black Mesa Steam или из самого Steam.
+
+      !!! Мод пока только поддерживает английский язык, поэтому поменяйте язык на английский, чтобы избежать возможных проблем !!!
 ---
