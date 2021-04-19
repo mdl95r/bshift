@@ -27,9 +27,9 @@
 			<title>{{ $title }} - {{ .Site.Data.settings.seo.ru.title }}</title>
 		{{- end -}}
 		<meta name="description" content="{{ .Site.Data.settings.seo.ru.description }}">
-		<meta property="og:title" content=" {{ .Site.Data.settings.seo.ru.title }} ">
+		<meta property="og:title" content="{{ $title }} - {{ .Site.Data.settings.seo.ru.title }} ">
 		<meta property="og:description" content="{{ .Site.Data.settings.seo.ru.description }}">
-		<meta name="twitter:title" content="{{ .Site.Data.settings.seo.ru.title }}">
+		<meta name="twitter:title" content="{{ $title }} - {{ .Site.Data.settings.seo.ru.title }}">
 		<meta name="twitter:description" content="{{ .Site.Data.settings.seo.ru.description }}">
 	{{ end }}
 	
