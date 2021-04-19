@@ -44,7 +44,7 @@ blocks:
     code:
       code: >-
         <div style="margin: 20px 0;">
-          <img style="margin: 0 auto;" src="https://media.moddb.com/images/members/5/4214/4213492/profile/Screenshot_2021-03-16_110727.png" alt="Directory of the mod" title="Directory of the mod" width="363" height="51">
+          <img style="margin: 0 auto;" src="https://media.moddb.com/images/members/5/4214/4213492/profile/Screenshot_2021-03-16_110727.png" alt="Directory of the mod" title="Directory of the mod">
         </div>
   - type: textBlock
     text: >-
