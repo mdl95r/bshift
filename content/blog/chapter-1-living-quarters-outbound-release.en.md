@@ -48,17 +48,15 @@ blocks:
         </div>
   - type: textBlock
     text: >-
-      1. Download the mod and extract it's files from .zip *(NO NEED IF YOU
-      DOWNLOADED FROM WORKSHOP)*;\
+      1. Download the mod and extract it's files from .zip  *(NO NEED IF YOU
+      DOWNLOADED FROM WORKSHOP)* ; \
 
-      2. Move the files into your Black Mesa root directory *(*\steamapps\common\Black Mesa)*, so *"bshift"* folder could be in the same directory as *"bms"* folder;\
+      2. Move the files into your Black Mesa root directory  *(* \ steamapps \ common \ Black Mesa) *, so*  "bshift"  *folder could be in the same directory as*  "bms" * folder; \
 
-      3. Launch the mod via one of the .bat files (*bshift.bat* for the new UI *(RECOMMENDED)*, *bshift_oldUI.bat* for the old UI *(NOT YET READY)*).\
+      3. Launch the mod via one of the .bat files ( *bshift.bat*  for the new UI  *(RECOMMENDED)* ,  *bshift_oldUI.bat*  for the old UI  *(NOT YET READY)* ). \
+         3-alt. Alternatively you can set Black Mesa launch properties in Steam to "-game bshift" and launch it via Black Mesa Steam shortcut or from Steam itself.
 
-      3-alt. Alternatively you can set Black Mesa launch properties in Steam to "-game bshift" and launch it via Black Mesa Steam shortcut or from Steam itself.
-
-
-      !!!This mod supports English language only for now, so set you game/Steam to English in order to evade any possible problems!!!
+      !!! This mod supports English language only for now, so set you game / Steam to English in order to evade any possible problems !!!
   - type: imageBlock
     img: /img/uploads/2.2.png
     alt: Living Quarters Outbound
