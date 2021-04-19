@@ -23,7 +23,7 @@ blocks:
     alt: Living Quarters Outbound
   - type: stringBlock
     align: center
-    string: Скачать мод вы можете по ссылкам
+    string: "Скачать мод вы можете по ссылкам:"
   - type: listLinks
     value:
       - link: https://www.moddb.com/mods/black-mesa-blue-shift-remake/downloads/black-mesa-blue-shift-chapter-1-living-quarters-outbound
@@ -53,4 +53,21 @@ blocks:
          3-альт. В качестве альтернативы вы можете установить свойства запуска Black Mesa в Steam на «-game bshift» и запускать его через ярлык Black Mesa Steam или из самого Steam.
 
       !!! Мод пока только поддерживает английский язык, поэтому поменяйте язык на английский, чтобы избежать возможных проблем !!!
+  - type: imageBlock
+    img: /img/uploads/2.2.png
+    alt: Living Quarters Outbound
+  - type: textBlock
+    text: Оживите инцидент в Черной Мезе в роли лучшего друга Гордона Фримена -
+      Барни Калхауна! Эта первая глава покажет вам начало обычного рабочего дня
+      в Black Mesa.
+  - type: imageBlock
+    img: /img/uploads/3.1.png
+    alt: Living Quarters Outbound
+  - type: textBlock
+    text: Это может быть демонстрация наших текущих возможностей в маппинге,
+      саундтреке и озвучивании. Мы также хотели бы, чтобы вы поделились своим
+      мнением о том, нравится ли вам то, что мы сделали, или нет.
+  - type: imageBlock
+    img: /img/uploads/41.png
+    alt: Living Quarters Outbound
 ---
