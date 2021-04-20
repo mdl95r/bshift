@@ -37,7 +37,7 @@
     <meta property="og:url" content="{{ .Permalink }}"/>
 	{{- if .Params.image.img -}}
 		{{- $image := resources.Get .Params.image.img -}}
-		<meta property="og:image" content="{{ ($image.Fill "630x378 Center q80").RelPermalink }}">
+		<meta property="og:image" content="{{ ($image.Fill "1000x562 Center q80").RelPermalink }}">
 	{{ else }}
 		<meta property="og:image" content="/img/media/map1-top1_thumb.jpg">	
 	{{ end }}
