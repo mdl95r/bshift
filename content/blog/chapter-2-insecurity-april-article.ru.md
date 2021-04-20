@@ -58,7 +58,7 @@ blocks:
     alt: "Insecurity - Black Mesa: Blue Shift"
   - type: stringBlock
     align: left
-    string: "А так же доступен новый саундтрек от Daver (скоро будет доступен):"
+    string: "А так же доступен новый саундтрек от Daver:"
   - type: youtubeBlock
     id: QRMx_o15wsE
   - type: stringBlock
