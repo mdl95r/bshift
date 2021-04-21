@@ -7,7 +7,7 @@ image:
   img: /img/uploads/41.png
   alt: "Chapter 1: Living Quarters Outbound"
 date: 2021-04-13T19:29:50.379Z
-links: false
+links: true
 blocks:
   - type: textBlock
     text: >-

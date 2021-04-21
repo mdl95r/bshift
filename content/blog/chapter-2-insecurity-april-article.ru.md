@@ -10,6 +10,7 @@ image:
   img: /img/uploads/insecurity-fab.jpg
   alt: "Insecurity - Black Mesa: Blue Shift"
 date: 2021-04-17T20:41:33.441Z
+links: true
 blocks:
   - type: textBlock
     text: >-
