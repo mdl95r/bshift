@@ -52,9 +52,9 @@ sections:
           level: 3
       - type: listLinks
         value:
-          - text: Patreon
+          - text: HECU Collective Patreon
             link: https://www.patreon.com/user/overview?u=27329565
-          - text: Discord
+          - text: HECU Collective Discord
             link: https://discord.gg/YYTYHJq3XB
           - link: https://www.youtube.com/channel/UCjoL6M9_8-93vmxjO4W5R9w
             text: Daver's Youtube Channel
