@@ -75,7 +75,7 @@ collections:
       - {label: "Описание поста", name: "desc", widget: "string", required: true, i18n: true}
       - {label: "Превью поста", name: "image", widget: "object", required: true, i18n: true, fields: [{label: "Изображение", name: "img", widget: "image", i18n: true}, {label: "Описание изображения", name: "alt", widget: "string", i18n: true}, ]}
       - {label: "Дата публикации", name: "date", required: true, widget: "datetime", i18n: true}
-      - {label: "Отобразить ссылки в конце поста", name: "links", required: false, widget: boolean, i18n: true, default: true}
+      - {label: "Отобразить ссылки в конце поста", name: "links", required: true, widget: boolean, i18n: true, default: true}
       - label: 'Блоки'
         name: 'blocks'
         i18n: true
