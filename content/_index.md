@@ -1,5 +1,5 @@
 ---
-title: "Black Mesa: Blue Shift"
+title: "Black Mesa: Blue Shift | Hecu Collective"
 img: img/uploads/Logov0.4-FULL-ModDB_1200.png
 alt: "Black Mesa: Blue Shift logo"
 sections:
