@@ -1,4 +1,4 @@
-baseURL = "https://blueshift.hecucollective.com/"
+baseURL = "https://blueshift.hecucollective.com"
 languageCode = "en-us"
 title = "Black Mesa: Blue Shift theme"
 DefaultContentLanguage = "en"
