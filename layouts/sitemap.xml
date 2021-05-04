@@ -10,12 +10,12 @@
 		<xhtml:link
 				rel="alternate"
 				hreflang="{{ .Lang }}"
-				href="{{ .Permalink }}"
+				href="{{ .Site.BaseURL }}{{ .Permalink }}"
 		/>{{ end }}
 		<xhtml:link
 				rel="alternate"
 				hreflang="{{ .Lang }}"
-				href="{{ .Permalink }}"
+				href="{{ .Site.BaseURL }}{{ .Permalink }}"
 		/>{{ end }}
 	</url>
 {{- end -}}
