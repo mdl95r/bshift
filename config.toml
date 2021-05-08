@@ -7,6 +7,8 @@ DefaultContentLanguage = "en"
   ChangeFreq = "weekly"
   Priority = "1"
 
+disableKinds = ["rss"]
+
 [taxonomies]
 tag = "tags"
 
