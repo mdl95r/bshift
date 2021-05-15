@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /entry/
+
+Sitemap: https://blueshift.hecucollective.com/sitemap.xml

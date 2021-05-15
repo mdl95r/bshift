@@ -3,7 +3,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="shortcut icon" href="/img/logo/favicon.ico" type="image/x-icon">
-	
 	{{- $title := ( .Title ) -}}
 	{{- $siteTitle := ( .Site.Title ) -}}
 
@@ -14,9 +13,9 @@
 			<title>{{ $title }} - {{ .Site.Data.settings.seo.en.title }}</title>
 		{{- end -}}
 		<meta name="description" content="{{ .Site.Data.settings.seo.en.description }}">
-		<meta property="og:title" content=" {{ .Site.Data.settings.seo.en.title }} ">
+		<meta property="og:title" content="{{ $title }} - {{ .Site.Data.settings.seo.en.title }} ">
 		<meta property="og:description" content="{{ .Site.Data.settings.seo.en.description }}">
-		<meta name="twitter:title" content="{{ .Site.Data.settings.seo.en.title }}">
+		<meta name="twitter:title" content="{{ $title }} - {{ .Site.Data.settings.seo.en.title }}">
 		<meta name="twitter:description" content="{{ .Site.Data.settings.seo.en.description }}">
 	{{ end }}
 
@@ -27,27 +26,22 @@
 			<title>{{ $title }} - {{ .Site.Data.settings.seo.ru.title }}</title>
 		{{- end -}}
 		<meta name="description" content="{{ .Site.Data.settings.seo.ru.description }}">
-		<meta property="og:title" content=" {{ .Site.Data.settings.seo.ru.title }} ">
+		<meta property="og:title" content="{{ $title }} - {{ .Site.Data.settings.seo.ru.title }} ">
 		<meta property="og:description" content="{{ .Site.Data.settings.seo.ru.description }}">
-		<meta name="twitter:title" content="{{ .Site.Data.settings.seo.ru.title }}">
+		<meta name="twitter:title" content="{{ $title }} - {{ .Site.Data.settings.seo.ru.title }}">
 		<meta name="twitter:description" content="{{ .Site.Data.settings.seo.ru.description }}">
 	{{ end }}
 	
 	<meta property="og:type" content="website"/>
     <meta property="og:url" content="{{ .Permalink }}"/>
-    <meta property="og:image" content="/img/media/map1-top1_thumb.jpg">
+	{{- if .Params.image.img -}}
+		{{- $image := resources.Get .Params.image.img -}}
+		<meta property="og:image" content="{{ ($image.Fill "1000x562 Center q80").RelPermalink }}">
+	{{ else }}
+		<meta property="og:image" content="/img/thumb/map1-top1_thumb.jpg">	
+	{{ end }}
 	<meta name="twitter:url" content="{{ .Permalink }}">
 	<meta name="theme-color" content="#1d63a3">
 	<link rel="stylesheet" href="/css/vendors.min.css">
     <link rel="stylesheet" href="/css/main.min.css">
-	<script type="application/ld+json">
-		{
-			"@context": "http://www.schema.org",
-			"@type": "WebSite",
-			"name": "{{ $title }} - {{ if eq .Language.LanguageName "En" }} {{ .Site.Data.settings.seo.en.title }} {{ else }} {{ .Site.Data.settings.seo.ru.title }} {{ end }}",
-			"alternateName": "{{ if eq .Language.LanguageName "En" }} {{ .Site.Data.settings.seo.en.description }} {{ else }} {{ .Site.Data.settings.seo.ru.description }} {{ end }}",
-			"url": "{{ .Permalink }}"
-		}
-	</script>
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>

@@ -1,5 +1,5 @@
 {{- $image := resources.Get .Params.img -}}
-<h1 class="v-h">{{ .Site.Data.settings.seo.title }}</h1>
+<h1 class="v-h">{{ .Params.Title }}</h1>
 <div class="modlogo-wrap">
 	<img class="lazy" data-src="{{ ($image.Fit "600x323 q80").RelPermalink }}" srcset={{ ($image.Fit "1200x645 q80").RelPermalink }} alt="{{ .Params.alt }}"/>
 </div>

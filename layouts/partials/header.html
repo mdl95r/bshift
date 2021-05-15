@@ -2,7 +2,13 @@
 	<div class="container-fluid d-flex align-items-center justify-content-between">
 		<div class="header__wrap-items">
 			<div class="mr-5 header__img-wrap">
-				<img src="/img/logo/hecu_logo.png" srcset="/img/logo/hecu_logo_2x.png 2x" alt="logo HecuCollective">
+				{{ if .IsHome }}
+					<img src="/img/logo/hecu_logo.png" srcset="/img/logo/hecu_logo_2x.png 2x" alt="logo Hecu Collective">
+				{{ else }}
+					<a href="{{ .Site.BaseURL }}">
+						<img src="/img/logo/hecu_logo.png" srcset="/img/logo/hecu_logo_2x.png 2x" alt="logo Hecu Collective">
+					</a>
+				{{ end }}
 			</div>
 			{{ partial "nav.html" . }}
 		</div>

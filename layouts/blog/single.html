@@ -11,6 +11,9 @@
 				{{ range .Params.blocks }}
 					{{ partial "utils/get-components.html" . }}
 				{{ end }}
+				{{ if .Params.links }}
+					{{ partial "blocks/post-links.html" . }}
+				{{ end }}
 			</div>
 		</div>
 	</div>

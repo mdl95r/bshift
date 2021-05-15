@@ -1,5 +1,6 @@
 .text-block {
 	color: #b7c7e2;
+	line-height: 20px;
 	margin: 10px 0;
 	ul {
 		margin: 15px 0;
@@ -7,6 +8,7 @@
 
 	li {
 		position: relative;
+		line-height: 20px;
 		padding-left: 20px;
 		margin-bottom: 15px;
 		&:before {

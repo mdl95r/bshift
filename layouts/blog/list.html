@@ -9,10 +9,12 @@
 					  <div class="row"> 
 						<div class="col-lg-5">
 							<div class="responsive-media">
-								{{- $image := resources.Get .Params.image.img -}}
-								<a href="{{ .RelPermalink }}">
-									<img data-src="{{ ($image.Fill "630x378 Center q80").RelPermalink }}" alt="{{ .Params.image.alt }}" title="{{ .Params.image.alt }}" class="lazy"/>
-								</a>
+								{{- if .Params.image.img -}}
+									{{ $image := resources.Get .Params.image.img }}
+									<a href="{{ .RelPermalink }}">
+										<img data-src="{{ ($image.Fill "630x378 Center q80").RelPermalink }}" alt="{{ .Params.image.alt }}" title="{{ .Params.image.alt }}" class="lazy"/>
+									</a>
+								{{- end -}}
 							</div>
 						</div>
 						<div class="col-lg-7">
@@ -21,7 +23,7 @@
 								<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 							</h2>
 							{{ if .Params.desc }}<p>{{ slicestr .Params.desc 0 120 }}...</p>{{ end }}
-								<a class="posts__read-btn" href="{{ .RelPermalink }}" title="Read more about {{ .Title }}">Read more</a>
+								<a class="posts__read-btn" href="{{ .RelPermalink }}" title="{{ if eq .Language.LanguageName "En" }}Read more about {{ else }}Читать дальше о{{ end }} {{ .Title }}">{{ if eq .Language.LanguageName "En" }}Read more{{ else }} Читать дальше {{ end }}</a>
 							<div class="posts__info">
 								<time class="date" datetime="{{ dateFormat "2006-01-02" .Date }}">
 									<i></i>

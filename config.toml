@@ -1,7 +1,12 @@
-baseURL = "/"
+baseURL = "https://blueshift.hecucollective.com"
 languageCode = "en-us"
 title = "Black Mesa: Blue Shift theme"
 DefaultContentLanguage = "en"
+disableKinds = ["RSS"]
+
+[sitemap]
+  ChangeFreq = "weekly"
+  Priority = "1"
 
 [taxonomies]
 tag = "tags"
@@ -37,4 +42,3 @@ weight = 2
 	name = "Блог"
 	url = "/blog"
 	weight = 2
-

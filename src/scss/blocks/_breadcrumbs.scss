@@ -8,6 +8,7 @@
 		text-transform: uppercase;
 		@media (max-width: $sm) {
 			line-height: 15px;
+			margin-bottom: 5px;
 		}
 		&:not(:last-child) {
 			padding-right: 25px;
@@ -22,9 +23,7 @@
 			}
 		}
 		&:last-child {
-			a {
-				color: #cacaca;
-			}
+			color: #cacaca;
 		}
 	}
 }

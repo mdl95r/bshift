@@ -101,3 +101,12 @@
 		}
 	}
 }
+
+html[lang="ru"] {
+	.posts__title {
+		font-size: 16px;
+		@media (min-width: $md) {
+			font-size: 21px;
+		}
+	}
+}

@@ -1,5 +1,5 @@
 ---
-title: "Black Mesa: Blue Shift"
+title: "Black Mesa: Blue Shift | Hecu Collective"
 img: img/uploads/Logov0.4-FULL-ModDB_1200.png
 alt: "Black Mesa: Blue Shift logo"
 sections:
@@ -17,7 +17,8 @@ sections:
           In 2012, Crowbar Collective has delighted Half-Life fans with release of the magnificent Half-Life remake, but there are still no released remakes for add-ons. This is when we are coming in - HECU Collective are developing the Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible. Our mod will be releasing partially, chapter by chapter, so those who are not patient for the full release will finally have something to play!
       - type: titleBlock
         value:
-          title: "Our composer, Daver, have released his third track for this chapter on Youtube:"
+          title: "Our composer, Daver, have released his third track for this chapter on
+            Youtube:"
           level: "3"
       - type: youtubeBlock
         id: WBhejZNBve0
@@ -64,20 +65,20 @@ sections:
     blocks:
       - type: mediaBlock
         value:
-          - img: img/uploads/chapter1-an.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-          - img: img/uploads/map1-ug1alt_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-          - img: img/uploads/map1-ug1_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
+          - img: /img/uploads/insecurity-fab.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
+          - img: /img/uploads/insecurity-fab-bp2.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
+          - alt: "Insecurity - Black Mesa: Blue Shift"
+            img: /img/uploads/insecurity-fab-bp.jpg
       - type: mediaBlock
         value:
-          - img: img/uploads/map2-otis_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
+          - img: /img/uploads/insecurity-ex-cyvo1.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
           - img: img/uploads/map3-lockers-alt_1080.jpg
             alt: "Black Mesa: Blue Shift - Insecurity"
-          - alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-            img: img/uploads/map1-cafe_1080.jpg
+          - alt: "Drinking Fountain Model - Black Mesa: Blue Shift"
+            img: /img/uploads/fountainmodel.jpg
   - title: other projects
     blocks:
       - type: headingImgLink

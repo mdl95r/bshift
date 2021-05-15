@@ -1,5 +1,5 @@
 ---
-title: "Black Mesa: Blue Shift"
+title: "Black Mesa: Blue Shift | Hecu Collective"
 img: img/uploads/Logov0.4-FULL-ModDB_1200.png
 alt: "Black Mesa: Blue Shift logo"
 sections:
@@ -7,17 +7,17 @@ sections:
     blocks:
       - type: textBlock
         text: >-
-          Initially developed and released by Gearbox Software in 2001,
-          second Half-Life add-on, Half-Life: Blue Shift is a return to the
-          Black Mesa Research Facility and another look at the Incident's
-          consequences from the eyes of Gordon Freeman's best friend - Barney
-          Calhoun
+          Half-Life: Blue Shift, изначально разработанный и выпущенный Gearbox
+          Software в 2001 году, является возвращением в исследовательский центр
+          Черной Мезы и еще одним взглядом на последствия Инцидента глазами
+          лучшего друга Гордона Фримена - Барни Калхун
 
 
-          In 2012, Crowbar Collective has delighted Half-Life fans with release of the magnificent Half-Life remake, but there are still no released remakes for add-ons. This is when we are coming in - HECU Collective are developing the Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible. Our mod will be releasing partially, chapter by chapter, so those who are not patient for the full release will finally have something to play!
+          В 2012 году Crowbar Collective порадовал поклонников Half-Life выпуском великолепного римейка Half-Life - **Black Mesa**, но до сих пор нет выпущенных ремейков для дополнений. И вот тогда есть мы  - **HECU Collective**.Мы разрабатываем Black Mesa: Blue Shift - бесплатный римейк с использованием ресурсов и стиля Black Mesa. Мы постараемся максимально приблизиться к оригинальным Half-Life: Blue Shift и Black Mesa. Наш мод будет выпускаться частично, глава за главой, так что тем, кому не терпится дождаться полного выпуска, наконец-то будет во что поиграть!
       - type: titleBlock
         value:
-          title: "Our composer, Daver, have released his third track for this chapter on Youtube:"
+          title: "Наш композитор Daver выпустил свой третий трек для этой главы на
+            Youtube:"
           level: "3"
       - type: youtubeBlock
         id: WBhejZNBve0
@@ -25,16 +25,16 @@ sections:
     blocks:
       - type: textBlock
         text: >-
-          The team was founded on December 10, 2016. April 2018, the AS team
-          joined the main development team, thereby forming
-          the **HECU Collective**.
+          Команда была основана 10 декабря 2016 года. В апреле 2018 года команда
+          AS (Azure Sheep) присоединилась к основной команде разработчиков,
+          образовав  **Коллектив HECU** .
 
 
-          At the same time, we do not limit ourselves to the framework and can post both a trailer for a new game/mod on the Source engine, and interesting news from the world of half-life and other games from Valve.
+          При этом мы не ограничиваемся рамками и можем разместить как трейлер новой игры или мода на движке Source, так и интересные новости из мира Half-Life и других игр от Valve.
       - type: titleBlock
         value:
-          title: "our social links:"
-          level: 3
+          title: Наши соц. сети
+          level: "3"
       - type: listLinks
         value:
           - link: https://vk.com/hecuteam
@@ -47,8 +47,8 @@ sections:
     blocks:
       - type: titleBlock
         value:
-          title: "we have few places where you can donate us:"
-          level: 3
+          title: "У нас есть несколько мест, где вы можете пожертвовать нам:"
+          level: "3"
       - type: listLinks
         value:
           - text: Patreon
@@ -59,25 +59,25 @@ sections:
             text: Daver's Youtube Channel
       - type: stringBlock
         align: center
-        string: Your support really matters to us.
+        string: Ваша поддержка крайне важна для нас!
   - title: Медиа
     blocks:
       - type: mediaBlock
         value:
-          - img: img/uploads/chapter1-an.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-          - img: img/uploads/map1-ug1alt_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-          - img: img/uploads/map1-ug1_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
+          - img: /img/uploads/insecurity-fab.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
+          - img: /img/uploads/insecurity-fab-bp2.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
+          - img: /img/uploads/insecurity-fab-bp.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
       - type: mediaBlock
         value:
-          - img: img/uploads/map2-otis_1080.jpg
-            alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
+          - img: /img/uploads/insecurity-ex-cyvo1.jpg
+            alt: "Insecurity - Black Mesa: Blue Shift"
           - img: img/uploads/map3-lockers-alt_1080.jpg
             alt: "Black Mesa: Blue Shift - Insecurity"
-          - alt: "Black Mesa: Blue Shift - Living Quarters Outbound"
-            img: img/uploads/map1-cafe_1080.jpg
+          - alt: "Drinking Fountain Model - Black Mesa: Blue Shift"
+            img: /img/uploads/fountainmodel.jpg
   - title: Еще проекты
     blocks:
       - type: headingImgLink
@@ -94,61 +94,4 @@ sections:
             alt: "Black Mesa: Black Ops"
             img: img/uploads/bo_800.jpg
             link: https://www.moddb.com/mods/black-mesa-black-ops
-  - title: Наша команда
-    hide: true
-    blocks:
-      - type: textImageBlock
-        img: img/uploads/20180327231512_1.jpg
-        alt: The Page dot
-        text: >-
-          ## The Page dot.
-
-
-          The root context, the one available to you in your `baseof.html` and layouts will always be the Page context. Basically everything you need to build this page is in that dot.\
-
-          `.Title`, `.Permalink`, `.Resources`, you name it.
-
-
-          Even your site’s informations is stored in the page context with `.Site` ready for the taking.
-
-
-          But in Go Template the minute you step into a function you lose that context as your precious dot or context is replaced by the function’s own… dot.
-
-
-          Let’s dive into a template file!
-        reverse: true
-      - type: textImageBlock
-        img: img/uploads/asheep_800.jpg
-        alt: It will be 2 years soon
-        text: >-
-          It will be 2 years soon. During this time, there were ups and downs of
-          the modification. But is it otherwise development has been and is
-          going on now. In addition, one good section of the mod helped me make
-          my good friend.Now we turn specifically to the modification. During
-          the optimization, it was decided to abandon some locations and thus
-          there will be only 3 maps - a, b, c, but the mod will be quite large,
-          with rich gameplay.
-
-
-          At the moment, the availability of the maps is as follows:
-
-
-          * A - 90%
-
-          * B - 80%
-
-          * C - 60%
-
-
-          My mistake was on moddb to set the release date for the 4th quarter of 2019. Obviously, development will flow into 2020. So, while the status is “To be announced”
-
-
-          I want to show screenshots of their Hammer’a, while there is no way to get a good picture. But testing passes, albeit without light with fullbright’s))
-        reverse: false
-      - type: htmlBlock
-        code:
-          code: '<a href="https://www.moddb.com/mods/power-pit" title="View Black Mesa:
-            Power pit on Mod DB" target="_blank"><img
-            src="https://button.moddb.com/popularity/medium/mods/35838.png"
-            alt="Black Mesa: Power pit" /></a>'
 ---
