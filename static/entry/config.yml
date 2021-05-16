@@ -1,12 +1,11 @@
 backend:
-  name: git-gateway
-  repo: mdl95r/test-cms-netlify
+  name: github
+  repo: mdl95r/bshift
   branch: main
+  base_url: https://nameless-lowlands-78666.herokuapp.com
 
-display_url: https://blueshift.hecucollective.com/
-logo_url: https://blueshift.hecucollective.com/img/logo/favicon.ico
-
-local_backend: true
+display_url: https://blueshift.hecucollective.com
+locale: 'ru'
 
 media_folder: 'assets/img/uploads'
 public_folder: '/img/uploads'
@@ -65,7 +64,7 @@ collections:
               - {label: Описание изображения, name: alt, widget: string}
   - name: blog
     label: Посты
-    description: Посты пишутся сразу на двух языках (EN, RU)
+    description: Посты пишутся сразу на двух языках (EN, RU). "Пост" Blog является не постом, а служит системным файлом, поэтому его лучше не трогать.
     folder: "content/blog"
     slug: '{{slug}}'
     encoding: "unicode"
@@ -76,6 +75,7 @@ collections:
       - {label: "Описание поста", name: "desc", widget: "string", required: true, i18n: true}
       - {label: "Превью поста", name: "image", widget: "object", required: true, i18n: true, fields: [{label: "Изображение", name: "img", widget: "image", i18n: true}, {label: "Описание изображения", name: "alt", widget: "string", i18n: true}, ]}
       - {label: "Дата публикации", name: "date", required: true, widget: "datetime", i18n: true}
+      - {label: "Отобразить ссылки в конце поста", name: "links", required: true, widget: boolean, i18n: true, default: true}
       - {label: "Теги", name: "tags", required: false, widget: "list", i18n: true, hind: 'Перечислять теги через запятую'}
       - label: 'Блоки'
         name: 'blocks'
@@ -154,6 +154,12 @@ collections:
                 fields:
                   - { label: 'Картинка', name: 'img', widget: 'image', i18n: true }
                   - { label: 'Описание изображения', name: 'alt', widget: 'string', i18n: true }
+          - label: 'html block'
+            name: 'htmlBlock'
+            i18n: true
+            widget: 'object'
+            fields:
+              - { label: 'Введите код', name: 'code', widget: 'code', i18n: true }
   - name: "pages"
     label: "Страницы"
     description: В силу технических причин, страницы сделаны иначе
@@ -169,7 +175,7 @@ collections:
             name: sections
             widget: list
             fields:
-            - {label: Название, name: title, widget: string, default: section name, pattern: ['[a-zA-Z]', "Название должно быть английскими буквами"] ,hint: Название должно быть английскими буквами}
+            - {label: Название, name: title, widget: string, default: section name}
             - {label: Скрыть секцию, name: hide, widget: boolean, required: false}
             - label: 'Блоки'
               name: 'blocks'
@@ -266,7 +272,7 @@ collections:
             name: sections
             widget: list
             fields:
-            - {label: Название, name: title, widget: string, default: section name, pattern: ['[a-zA-Z]', "Название должно быть английскими буквами"] ,hint: Название должно быть английскими буквами}
+            - {label: Название, name: title, widget: string, default: имя секции}
             - {label: Скрыть секцию, name: hide, widget: boolean, required: false}
             - label: 'Блоки'
               name: 'blocks'
