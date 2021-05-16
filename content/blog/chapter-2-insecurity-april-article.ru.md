@@ -11,6 +11,10 @@ image:
   alt: "Insecurity - Black Mesa: Blue Shift"
 date: 2021-04-17T20:41:33.441Z
 links: true
+tags:
+  - chapter2
+  - wip
+  - developing
 blocks:
   - type: textBlock
     text: >-

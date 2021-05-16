@@ -8,6 +8,10 @@ image:
   alt: "Chapter 1: Living Quarters Outbound"
 date: 2021-04-13T19:29:50.379Z
 links: true
+tags:
+  - chapter1
+  - wip
+  - developing
 blocks:
   - type: textBlock
     text: >-

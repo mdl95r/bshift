@@ -1,0 +1,41 @@
+.up-btn {
+    visibility: hidden;
+	position: fixed;
+    top: 50%;
+    right: 10px;
+    z-index: 9;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #1d63a3;
+    box-shadow: 3px 10px 17px 0px rgba(50, 50, 50, .38);
+    cursor: pointer;
+    opacity: 0;
+    transition: .2s;
+    @media (min-width: $md) {
+        right: 81px;
+        width: 60px;
+        height: 60px;
+    }
+    &:after {
+        position: absolute;
+        top: calc(50% - 5px);
+        right: calc(50% - 12px);
+        transform: rotate(315deg);
+        content: "";
+        width: 22px;
+        height: 22px;
+        border-top: 3px solid #fff;
+        border-right: 3px solid #fff;
+        @media (min-width: $md) {
+            width: 24px;
+            height: 24px;
+        }
+    }
+    &_show {
+        visibility: visible;
+        opacity: 1;
+        transition: .2s;
+    }
+}

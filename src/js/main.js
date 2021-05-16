@@ -5,6 +5,7 @@ import slider from './modules/slider';
 import initGallery from './modules/lightgallery';
 import header from './modules/header';
 import initScrolling from './modules/scroll-to-section';
+import upBtn from './modules/upBtn';
 
 document.addEventListener('DOMContentLoaded', () => {
 	initCookiePopup();
@@ -14,4 +15,5 @@ document.addEventListener('DOMContentLoaded', () => {
 	slider();
 	initScrolling();
 	initGallery();
+	upBtn();
 })

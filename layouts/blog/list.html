@@ -29,13 +29,14 @@
 									<i></i>
 									{{- dateFormat "2006-01-02" .Date -}}
 								</time>
-								<!-- <div class="posts__tags"><i></i>
-									<div class="posts__tags-list">
-										{{ range .Params.tags }}
-											<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-										{{ end }}
+								{{ if .Params.tags }}
+									<div class="tags">
+										<i></i>
+										<div class="tags__list">
+											{{ partial "tags.html" . }}
+										</div>
 									</div>
-								</div> -->
+								{{ end }}
 							</div>
 						  </div>
 						</div>

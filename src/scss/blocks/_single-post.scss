@@ -15,4 +15,14 @@
 		border-radius: 10px;
 		background: #343d49;
 	}
+	&__info {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.tags {
+		margin-top: 0;
+		@media (max-width: 421px) {
+			margin-top: 15px;
+		}
+	}
 }

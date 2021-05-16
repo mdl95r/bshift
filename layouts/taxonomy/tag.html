@@ -1,0 +1,45 @@
+{{ define "main" }}
+	<section class="posts">
+		<div class="container">
+			{{ with .Site.GetPage "/blog" }}
+				<a class="breadcrumbs_back-btn" href="{{ .RelPermalink }}">{{- if eq .Language.LanguageName "En" -}}Back to blog{{- else -}}Вернуться в блог{{- end -}}
+					<i></i>
+				</a>
+			{{ end }}
+			<h1>{{ .Title }}</h1>
+			<ul class="posts__list">
+				{{ range .Data.Pages }}
+					<div class="posts__item">
+						<div class="row"> 
+							<div class="col-lg-5">
+								<div class="responsive-media">
+									{{- if .Params.image.img -}}
+										{{ $image := resources.Get .Params.image.img }}
+										<a href="{{ .RelPermalink }}">
+											<img data-src="{{ ($image.Fill "630x378 Center q80").RelPermalink }}" alt="{{ .Params.image.alt }}" title="{{ .Params.image.alt }}" class="lazy"/>
+										</a>
+									{{- end -}}
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="posts__body-wrap">
+								<h2 class="posts__title">
+									<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+								</h2>
+								{{ if .Params.desc }}<p>{{ slicestr .Params.desc 0 120 }}...</p>{{ end }}
+									<a class="posts__read-btn" href="{{ .RelPermalink }}" title="{{ if eq .Language.LanguageName "En" }}Read more about {{ else }}Читать дальше о{{ end }} {{ .Title }}">{{ if eq .Language.LanguageName "En" }}Read more{{ else }} Читать дальше {{ end }}</a>
+								<div class="posts__info">
+									<time class="date" datetime="{{ dateFormat "2006-01-02" .Date }}">
+										<i></i>
+										{{- dateFormat "2006-01-02" .Date -}}
+									</time>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				{{ end }}
+			</ul>
+		</div>
+	</section>
+{{ end }}
