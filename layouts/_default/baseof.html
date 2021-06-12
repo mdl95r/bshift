@@ -6,8 +6,11 @@
 		{{ block "main" . }}
 			Main content
 		{{ end }}
-		{{ partial "scripts-bottom.html" . }}
 		{{ partial "cookie-popup.html" . }}
-		{{ partial "up-btn" . }}
+		{{ partial "up-btn.html" . }}
+		{{ partial "footer.html" . }}
+		{{ partial "scripts-bottom.html" . }}
+		{{ block "scriptPosts" . }}
+		{{ end }}
 	</body>
 </html>

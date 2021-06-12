@@ -1,5 +1,18 @@
-.hero {
-	margin-top: 50px;
+.hero, .slider-block {
+	&:not(.slider-block) {
+		margin-top: 50px;
+	}
+	.slider-block {
+		&__item {
+			img {
+				object-fit: contain;
+				@media (min-width: $lg) {
+					height: 600px;
+				}
+			}
+		}
+	}
+
 	&__item {
 		img {
 			width: 100%;

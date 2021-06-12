@@ -38,4 +38,8 @@
 	{{ partial "blocks/image-block.html" . }}
 {{ end }}
 
+{{ if eq .type "sliderBlock" }}
+	{{ partial "blocks/slider-block.html" (dict "cntx" . ) }}
+{{ end }}
+
 

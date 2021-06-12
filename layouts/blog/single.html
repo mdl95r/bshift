@@ -5,18 +5,22 @@
 				{{ partial "breadcrumbs.html" . }}
 				<h1>{{ .Title }}</h1>
 				<div class="single-post__info">
-					<time class="date" datetime="{{ dateFormat "2006-01-02" .Date }}">
+					<time title="Date publishing" class="date" datetime="{{ dateFormat "2006-01-02" .Date }}">
 						<i></i>
 						{{- dateFormat "2006-01-02" .Date -}}
 					</time>
 					{{ if .Params.tags }}
 						<div class="tags">
-							<i></i>
+							<i title="Tags"></i>
 							<div class="tags__list">
 								{{ partial "tags.html" . }}
 							</div>
 						</div>
 					{{ end }}
+				</div>
+				<div class="single-post__socials">
+					<div id="sharing-btns"></div>
+					<span class="likebtn-wrapper" data-theme="custom" data-btn_size="24" data-f_size="13" data-icon_size="15" data-icon_l="hrt1" data-icon_l_c="#ff0000" data-icon_l_c_v="#0f9d3c" data-bg_c_v="#ffffff" data-show_like_label="false" data-dislike_enabled="false"></span>
 				</div>
 				{{ range .Params.blocks }}
 					{{ partial "utils/get-components.html" . }}
@@ -24,7 +28,23 @@
 				{{ if .Params.links }}
 					{{ partial "blocks/post-links.html" . }}
 				{{ end }}
+				<div class="see-also">
+					<h2 class="see-also__title">{{ if eq .Site.Language.Lang "en" }}See also:{{ else }}Еще посты:{{ end }}</h2>
+					<div class="see-also__links">
+						{{ if eq nil .PrevPage }}
+							<a class="see-also__links-link" style="margin-left: auto;" href="{{ .NextPage.RelPermalink }}">{{ .NextPage.Title | truncate 50 "..." }}</a>
+						{{ else }}
+							<a class="see-also__links-link" href="{{ .PrevPage.RelPermalink }}">{{ .PrevPage.Title | truncate 50 "..." }}</a>
+							{{ if .NextPage }}
+								<a class="see-also__links-link" href="{{ .NextPage.RelPermalink }}">{{ .NextPage.Title | truncate 50 "..." }}</a>
+							{{ end }}
+						{{ end }}
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+{{ end }}
+{{ define "scriptPosts" }}
+	<script>(function(d,e,s){if(d.getElementById("likebtn_wjs"))return;a=d.createElement(e);m=d.getElementsByTagName(e)[0];a.async=1;a.id="likebtn_wjs";a.src=s;m.parentNode.insertBefore(a, m)})(document,"script","//w.likebtn.com/js/w/widget.js");</script>
 {{ end }}
