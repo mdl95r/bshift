@@ -1,0 +1,28 @@
+.see-also {
+	margin: 20px 0;
+	&__title {
+		font-size: 24px;
+	}
+	&__links {
+		display: flex;
+		justify-content: space-between;
+		@media(max-width: $lg) {
+			align-items: center;
+			flex-direction: column;
+		}
+		&-link {
+			color: #55adff;
+			font-size: 17px;
+			text-align: center;
+			@media(max-width: $lg) {
+				&:not(:last-child) {
+					margin-bottom: 10px;
+				}
+			}
+			&:hover {
+				color: #a6c4e0;
+				transition: .3s;
+			}
+		}
+	}
+}

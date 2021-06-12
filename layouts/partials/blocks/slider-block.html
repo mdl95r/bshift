@@ -1,0 +1,17 @@
+<div class="slider-block">
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			{{ range $index, $itemVal := .cntx.value}}
+				{{- $image := resources.Get .img -}}
+				<div class="swiper-slide">
+					<div class="slider-block__item">
+						<img data-src="{{ ($image.Resize "1200x Center q95").RelPermalink }}" alt="{{ .alt }} ({{ add $index 1 }})" class="lazy"/>
+					</div>
+				</div>
+			{{ end }}
+	  	</div>
+		<div class="swiper-pagination"></div>
+		<div class="swiper-button-prev slider-block__button-arrow"></div>
+		<div class="swiper-button-next slider-block__button-arrow"></div>
+	</div>
+</div>

@@ -1,5 +1,6 @@
 .text-block {
 	color: #b7c7e2;
+    font-size: 15px;
 	line-height: 20px;
 	margin: 10px 0;
 	ul {
@@ -42,5 +43,8 @@
 		text-transform: uppercase;
 		padding: 0;
 		margin: 10px 0;
+	}
+	a {
+		color: #55adff;
 	}
 }

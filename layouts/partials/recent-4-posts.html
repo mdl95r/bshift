@@ -1,0 +1,3 @@
+{{ range ( where .Site.RegularPages "Type" "blog" | first 4 ) }}
+	<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{end}}

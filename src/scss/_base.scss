@@ -3,27 +3,38 @@
 }
 
 * {
-    line-height: 1;
     padding: 0;
     margin: 0;
 }
 
 html {
+    height: 100%;
     scrollbar-width: thin;
     scrollbar-color: #1783e7bf transparent;
     &[lang="ru"] {
         body, h1, h2, h3, h3, h4, h5, h6, a {
             font-family: $font-family;
         }
+        h1 {
+            font-size: 22px;
+            @media(min-width: $lg) {
+                font-size: 30px;
+			}
+        }
     }
 }
 
 body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     min-width: 320px;
+    height: 100%;
     font-family: $font-family;
     color: $color-white;
     font-size: 14px;
     letter-spacing: 1px;
+    line-height: 1.1;
     background: url($background-img) no-repeat #38424f;
     background-size: cover;
     background-attachment: fixed;
@@ -74,4 +85,8 @@ label {
 h2, h3 {
     text-align: center;
     text-transform: uppercase;
+}
+
+.container {
+    max-width: 1200px;
 }

@@ -21,6 +21,23 @@ const slider = () => {
 			},
 		})
 	}
+	const sliderBlock = document.querySelector('.slider-block');
+	if (sliderBlock) {
+		new Swiper('.slider-block .swiper-container', {
+			slidesPerView: 1,
+			spaceBetween: 0,
+			speed: 800,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		})
+	}
 }
 
 export default slider

@@ -9,14 +9,6 @@
 			font-size: 18px;
 		}
 	}
-	.container {
-		@media (min-width: 1200px) {
-			max-width: 900px;
-		}
-		@media (min-width: 1300px) {
-			max-width: 1140px;
-		}
-	}
 	&__list {
 		padding: 30px;
 		border-radius: 12px;

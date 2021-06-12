@@ -22,8 +22,8 @@
 							<h2 class="posts__title">
 								<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 							</h2>
-							{{ if .Params.desc }}<p>{{ slicestr .Params.desc 0 120 }}...</p>{{ end }}
-								<a class="posts__read-btn" href="{{ .RelPermalink }}" title="{{ if eq .Language.LanguageName "En" }}Read more about {{ else }}Читать дальше о{{ end }} {{ .Title }}">{{ if eq .Language.LanguageName "En" }}Read more{{ else }} Читать дальше {{ end }}</a>
+							{{ if .Params.desc }}<p>{{ slicestr .Params.desc 0 115 }}...</p>{{ end }}
+								<a class="posts__read-btn" href="{{ .RelPermalink }}" title="{{ if eq .Language.LanguageName "En" }}Read more about{{ else }}Читать дальше о{{ end }} {{ .Title }}">{{ if eq .Language.LanguageName "En" }}Read more{{ else }} Читать дальше {{ end }}</a>
 							<div class="posts__info">
 								<time class="date" datetime="{{ dateFormat "2006-01-02" .Date }}">
 									<i></i>

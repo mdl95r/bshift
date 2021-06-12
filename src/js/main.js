@@ -6,6 +6,7 @@ import initGallery from './modules/lightgallery';
 import header from './modules/header';
 import initScrolling from './modules/scroll-to-section';
 import upBtn from './modules/upBtn';
+import sharingBtn from './modules/share-btns';
 
 document.addEventListener('DOMContentLoaded', () => {
 	initCookiePopup();
@@ -16,4 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
 	initScrolling();
 	initGallery();
 	upBtn();
+	sharingBtn();
 })
