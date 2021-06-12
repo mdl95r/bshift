@@ -64,20 +64,20 @@ sections:
     blocks:
       - type: mediaBlock
         value:
-          - img: /img/uploads/insecurity-fab.jpg
+          - img: /img/uploads/12thjl-1.jpg
             alt: "Insecurity - Black Mesa: Blue Shift"
-          - img: /img/uploads/insecurity-fab-bp2.jpg
+          - img: /img/uploads/12thjl-5.jpg
             alt: "Insecurity - Black Mesa: Blue Shift"
-          - img: /img/uploads/insecurity-fab-bp.jpg
+          - img: /img/uploads/12thjl-4.jpg
             alt: "Insecurity - Black Mesa: Blue Shift"
       - type: mediaBlock
         value:
-          - img: /img/uploads/insecurity-ex-cyvo1.jpg
+          - img: /img/uploads/12thjl-6.png
             alt: "Insecurity - Black Mesa: Blue Shift"
-          - img: img/uploads/map3-lockers-alt_1080.jpg
+          - img: /img/uploads/12thjl-2.jpg
             alt: "Black Mesa: Blue Shift - Insecurity"
-          - alt: "Drinking Fountain Model - Black Mesa: Blue Shift"
-            img: /img/uploads/fountainmodel.jpg
+          - alt: "Black Mesa: Blue Shift - Insecurity"
+            img: /img/uploads/12thjl-3.jpg
   - title: Еще проекты
     blocks:
       - type: headingImgLink
