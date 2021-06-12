@@ -45,7 +45,8 @@ collections:
         editor:
           preview: false
         fields:
-          - {label: Яндекс метрика, name: ym, widget: string, required: false, hint: Идентификатор метрики, 73962811, i18n: duplicate, pattern: ['/^(\d){8}/g', id должен иметь 8 цифр ] }
+          - {label: Яндекс метрика, name: ym, widget: string, required: true, hint: Идентификатор метрики, default: '73962811', i18n: duplicate, pattern: ['/^(\d){8}/g', id должен иметь 8 цифр? ] }
+          - {label: Показать счетчик, name: show, widget: boolean, required: true, i18n: duplicate}
   - name: sliders
     description: Рекомендую не загружать изображения в формате png, из-за плохой оптимизации данных форматов.
     label: Слайдер на главной странице
@@ -160,6 +161,18 @@ collections:
             widget: 'object'
             fields:
               - { label: 'Введите код', name: 'code', widget: 'code', i18n: true }
+          - label: 'Слайдер'
+            name: 'sliderBlock'
+            i18n: true
+            widget: list
+            fields:
+            - label: Изображение
+              name: value
+              i18n: true
+              widget: list
+              fields:
+                - { label: 'Картинка', name: 'img', widget: 'image', i18n: true }
+                - { label: 'Описание изображения', name: 'alt', widget: 'string', i18n: true }
   - name: "pages"
     label: "Страницы"
     description: В силу технических причин, страницы сделаны иначе
