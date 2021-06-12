@@ -16,11 +16,10 @@ sections:
           В 2012 году Crowbar Collective порадовал поклонников Half-Life выпуском великолепного римейка Half-Life - **Black Mesa**, но до сих пор нет выпущенных ремейков для дополнений. И вот тогда есть мы  - **HECU Collective**.Мы разрабатываем Black Mesa: Blue Shift - бесплатный римейк с использованием ресурсов и стиля Black Mesa. Мы постараемся максимально приблизиться к оригинальным Half-Life: Blue Shift и Black Mesa. Наш мод будет выпускаться частично, глава за главой, так что тем, кому не терпится дождаться полного выпуска, наконец-то будет во что поиграть!
       - type: titleBlock
         value:
-          title: "Наш композитор Daver выпустил свой третий трек для этой главы на
-            Youtube:"
+          title: "Новый саундтрек от Daver:"
           level: "3"
       - type: youtubeBlock
-        id: WBhejZNBve0
+        id: QRMx_o15wsE
   - title: О нас
     blocks:
       - type: textBlock
