@@ -1,6 +1,6 @@
 <ul class="breadcrumbs" itemscope itemtype="https://schema.org/BreadcrumbList">
 	<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-		<a href="{{ .Site.Home.Permalink }}" title="{{ if eq .Language.LanguageName "Ru" }}Главная{{ else }}Home{{ end }}" itemprop="item">
+		<a href="{{ .Site.Home.Permalink }}" title="{{ if eq .Language.LanguageName "Ru" }}Главная{{ else }}Home{{ end }}" itemprop="item" content="{{ .Site.Home.Permalink }}">
 			{{ if eq .Language.LanguageName "Ru" }}
 				<span itemprop="name">Главная</span>
 			{{ else }}
@@ -27,7 +27,7 @@
 			</li>
 		{{ else }}
 			<li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-				<a href="{{ .currentPage.Permalink }}">
+				<a href="{{ .currentPage.Permalink }}" itemprop="item" content="{{ .currentPage.Permalink }}">
 					<span itemprop="name" title="{{ .currentPage.Title }}">{{ .currentPage.Title }}</span>
 					<meta itemprop="position" content="{{ $.scratch.Get "contentIndex" }}">
 					{{- $.scratch.Add "contentIndex" 1 -}}
