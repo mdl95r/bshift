@@ -15,12 +15,14 @@ sections:
 
 
           In 2012, Crowbar Collective has delighted Half-Life fans with release of the magnificent Half-Life remake, but there are still no released remakes for add-ons. This is when we are coming in - HECU Collective are developing the Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible. Our mod will be releasing partially, chapter by chapter, so those who are not patient for the full release will finally have something to play!
-      - type: titleBlock
-        value:
-          title: "Here is the new soundtrack from Daver:"
-          level: "3"
+      - type: textBlock
+        text: >-
+          Introducing a new teaser for the chapter of Insecurity, exclusive to
+          the new platform for fans of the Half-Life universe!
+
+          The chapter is slated for release on July 16!
       - type: youtubeBlock
-        id: QRMx_o15wsE
+        id: 86HrlOHIMRw
   - title: about us
     blocks:
       - type: textBlock
