@@ -20,7 +20,7 @@ sections:
           Introducing a new teaser for the chapter of Insecurity, exclusive to
           the new platform for fans of the Half-Life universe!
 
-          The chapter is slated for release on July 16!
+          **The chapter is slated for release on July 16!**
       - type: youtubeBlock
         id: 86HrlOHIMRw
   - title: about us
