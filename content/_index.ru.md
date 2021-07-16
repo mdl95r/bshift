@@ -14,26 +14,21 @@ sections:
 
 
           В 2012 году Crowbar Collective порадовал поклонников Half-Life выпуском великолепного римейка Half-Life - **Black Mesa**, но до сих пор нет выпущенных ремейков для дополнений. И вот тогда есть мы  - **HECU Collective**.Мы разрабатываем Black Mesa: Blue Shift - бесплатный римейк с использованием ресурсов и стиля Black Mesa. Мы постараемся максимально приблизиться к оригинальным Half-Life: Blue Shift и Black Mesa. Наш мод будет выпускаться частично, глава за главой, так что тем, кому не терпится дождаться полного выпуска, наконец-то будет во что поиграть!
-      - type: textBlock
-        text: >-
-          Вторая глава Black Mesa: Blue Shift уже доступна на ModDB и Steam
-          Workshop!
-
-
-          **Где скачать:**
-
-
-          ModDB:\
-
-          [https://www.moddb.com/mods/black-mesa-blue-shift-rema..](https://vk.com/away.php?to=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fblack-mesa-blue-shift-remake%2Fnews%2Fchapter-2-insecurity-release&post=-139374457_2241&cc_key= "https\://www.moddb.com/mods/black-mesa-blue-shift-remake/news/chapter-2-insecurity-release")
-
-
-          Steam Workshop:\
-
-          [https://steamcommunity.com/sharedfiles/filedetails/?i..](https://vk.com/away.php?to=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D2424633574&post=-139374457_2241&cc_key= "https\://steamcommunity.com/sharedfiles/filedetails/?id=2424633574")
-
-
-          Заходите на наш сервер в Discord: [https://discord.gg/uhdTxP5Cuw](https://vk.com/away.php?to=https%3A%2F%2Fdiscord.gg%2FuhdTxP5Cuw&post=-139374457_2241&cc_key=)
+      - type: stringBlock
+        align: center
+        string: "Вторая глава Black Mesa: Blue Shift уже доступна на ModDB и Steam
+          Workshop!"
+      - type: stringBlock
+        align: center
+        string: "Где скачать:"
+      - type: listLinks
+        value:
+          - text: ModDB
+            link: https://www.moddb.com/mods/black-mesa-blue-shift-remake/news/chapter-2-insecurity-release
+          - text: Steam Workshop
+            link: https://steamcommunity.com/sharedfiles/filedetails/?id=2424633574
+          - link: https://discord.com/invite/uhdTxP5Cuw
+            text: "Заходите на наш сервер в Discord:"
   - title: О нас
     blocks:
       - type: textBlock
