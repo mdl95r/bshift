@@ -15,15 +15,21 @@ sections:
 
 
           In 2012, Crowbar Collective has delighted Half-Life fans with release of the magnificent Half-Life remake, but there are still no released remakes for add-ons. This is when we are coming in - HECU Collective are developing the Black Mesa: Blue Shift - a free remake with use of Black Mesa resources and style. We will try to stay as close to the original Blue Shift and Black Mesa as possible. Our mod will be releasing partially, chapter by chapter, so those who are not patient for the full release will finally have something to play!
-      - type: textBlock
-        text: >-
-          Introducing a new teaser for the chapter of Insecurity, exclusive to
-          the new platform for fans of the Half-Life universe!
-
-
-          **The chapter is slated for release on July 16!**
-      - type: youtubeBlock
-        id: 86HrlOHIMRw
+      - type: stringBlock
+        align: center
+        string: "The second chapter of Black Mesa: Blue Shift is now available on ModDB
+          and Steam Workshop!"
+      - type: stringBlock
+        align: center
+        string: "Where can I download:"
+      - type: listLinks
+        value:
+          - link: https://www.moddb.com/mods/black-mesa-blue-shift-remake/news/chapter-2-insecurity-release
+            text: ModDB
+          - link: https://steamcommunity.com/sharedfiles/filedetails/?id=2424633574
+            text: Steam Workshop
+          - link: https://discord.com/invite/uhdTxP5Cuw
+            text: "Visit our server on Discord:"
   - title: about us
     blocks:
       - type: textBlock
