@@ -58,7 +58,7 @@ blocks:
 
       * And more...
   - type: youtubeBlock
-    id: KLsxSwPlFro
+    id: KLsxSwPlFro&t
   - type: stringBlock
     align: center
     string: "Where to download the mod:"
@@ -70,7 +70,7 @@ blocks:
         link: https://steamcommunity.com/sharedfiles/filedetails/?id=2424633574
   - type: stringBlock
     align: center
-    string: INSTALLATION METHODS (UPDATED)
+    string: "INSTALLATION METHODS:"
   - type: textBlock
     text: >-
       ***INSTALLATION VIA SYMBOLIC LINK (STEAM WORKSHOP ONLY):***
@@ -115,7 +115,7 @@ blocks:
     alt: "Black Mesa: Blue Shift Insecurity chapter released"
   - type: stringBlock
     align: center
-    string: LAUNCH INSTRUCTIONS
+    string: "LAUNCH INSTRUCTIONS:"
   - type: textBlock
     text: >-
       ***VIA FILESYSTEM (IF YOU USED THE SYMBOLIC LINK METHOD):***

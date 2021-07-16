@@ -54,4 +54,95 @@ blocks:
       * Вы можете прочитать описание мода, [блог разработчика](https://blueshift.hecucollective.com/blog/) и увидеть людей, участвовавших в разработке этого ремейка, на последних двух вкладках нового пользовательского интерфейса;
 
       * И больше...
+  - type: youtubeBlock
+    id: KLsxSwPlFro&t
+  - type: stringBlock
+    align: center
+    string: "Где скачать мод:"
+  - type: listLinks
+    value:
+      - link: https://www.moddb.com/mods/black-mesa-blue-shift-remake/downloads/black-mesa-blue-shift-chapters-1-2#downloadsform
+        text: ModDB Download Page
+      - text: Steam Workshop
+        link: https://steamcommunity.com/sharedfiles/filedetails/?id=2424633574
+  - type: stringBlock
+    align: center
+    string: "СПОСОБЫ УСТАНОВКИ:"
+  - type: textBlock
+    text: >-
+      УСТАНОВКА ПО СИМВОЛИЧЕСКОЙ ССЫЛКЕ (ТОЛЬКО ДЛЯ МАСТЕРСКОЙ STEAM):
+
+
+      ВАЖНО: ЕСЛИ У ВАС УЖЕ ИМЕЕТСЯ АКТИВНАЯ ПАПКА bshift В КОРНЕВОЙ КАТАЛОГЕ, ВЫ ДОЛЖНЫ УДАЛИТЬ ЕЕ ИЛИ В противном случае СИМВОЛИЧЕСКАЯ ССЫЛКА МОЖЕТ НЕ СОЗДАТЬСЯ!
+
+
+      \-Зайдите в * /Steam/steamapps/shops/content/362890/2424633574
+
+
+      \-Запустите bshift_gamelink.bat от имени администратора
+
+
+      \-Проверьте, была ли создана символическая ссылка "bshift" в корневом каталоге Black Mesa (* /Steam/Steamapps/Common/Black Mesa)
+
+
+      УСТАНОВКА ЧЕРЕЗ ФАЙЛ-БРАУЗЕР (МАСТЕРСКАЯ STEAM):
+
+
+      ВАЖНО: ПЕРЕД КОПИРОВАНИЕМ НОВОЙ УДАЛИТЕ СТАРУЮ ПАПКУ bshift ИЗ *BLACK MESA* КАТАЛОГА, ИЛИ ВЫ столкнетесь с НЕКОТОРЫМИ ПРОБЛЕМАМИ.
+
+
+      \-Зайдите в */Steam/steamapps/shops/content/362890/2424633574
+
+
+      \-Скопируйте папку bshift и bshift.bat / bshift_oldUI.bat в корневой каталог игры Black Mesa (* /Steam/steamapps/Common/Black Mesa/)
+
+
+      УСТАНОВКА ЧЕРЕЗ ФАЙЛ-БРАУЗЕР (ЗАГРУЗКА MODDB):
+
+
+      ВАЖНО: ПЕРЕД КОПИРОВАНИЕМ НОВОЙ УДАЛИТЕ СТАРУЮ ПАПКУ bshift ИЗ ЧЕРНОГО КОРНЕВОГО КАТАЛОГА MESA GAME, ИЛИ ВЫ столкнетесь с НЕКОТОРЫМИ ПРОБЛЕМАМИ.
+
+
+      \-Распаковать скачанный архив
+
+
+      \-Скопируйте папку bshift и bshift.bat или bshift_oldUI.bat в корневой каталог игры Black Mesa (* /Steam/Steamapps/Common/Black Mesa/)
+  - type: imageBlock
+    img: /img/uploads/3ch2ins.png
+    alt: "Глава Black Mesa: Blue Shift Insecurity вышла!"
+  - type: stringBlock
+    align: center
+    string: "ИНСТРУКЦИИ ДЛЯ ЗАПУСКА:"
+  - type: textBlock
+    text: >-
+      ЧЕРЕЗ FILESYSTEM (ЕСЛИ ВЫ ИСПОЛЬЗОВАЛИ МЕТОД СИМВОЛИЧЕСКОЙ ССЫЛКИ):
+
+
+      \-Зайдите в */Steam/steamapps/shops/content/362890/2424633574
+
+
+      \-Запустите файл bshift.bat (bshift_oldUI.bat, если вы хотите играть под старым пользовательским интерфейсом)
+
+
+      ЧЕРЕЗ FILESYSTEM (ЕСЛИ ВЫ ИСПОЛЬЗОВАЛИ МЕТОД ФАЙЛОВОГО БРАУЗЕРА):
+
+
+      \-Перейдите в корневой каталог игры Black Mesa (*/Steam/steamapps/Common/Black Mesa/)
+
+
+      \-Запустите файл bshift.bat (bshift_oldUI.bat, если вы хотите играть под старым пользовательским интерфейсом)
+
+
+      ЧЕРЕЗ БИБЛИОТЕКУ STEAM:
+
+
+      \-Запуск через Steam: перейдите в свойства игры и введите «-game bshift» в параметры запуска.
+
+      (Не забудьте удалить эту запись, если снова захотите сыграть в Black Mesa.)
+
+
+      \-Запустить старый интерфейс через Steam: То же, что и раньше, но на этот раз «-game bshift -oldgameui»
+  - type: imageBlock
+    img: /img/uploads/4ch2ins.png
+    alt: "Глава Black Mesa: Blue Shift Insecurity вышла!"
 ---
