@@ -16,12 +16,24 @@ sections:
           В 2012 году Crowbar Collective порадовал поклонников Half-Life выпуском великолепного римейка Half-Life - **Black Mesa**, но до сих пор нет выпущенных ремейков для дополнений. И вот тогда есть мы  - **HECU Collective**.Мы разрабатываем Black Mesa: Blue Shift - бесплатный римейк с использованием ресурсов и стиля Black Mesa. Мы постараемся максимально приблизиться к оригинальным Half-Life: Blue Shift и Black Mesa. Наш мод будет выпускаться частично, глава за главой, так что тем, кому не терпится дождаться полного выпуска, наконец-то будет во что поиграть!
       - type: textBlock
         text: >-
-          Представляем вам новый тизер главы Insecurity, эксклюзивный для новой
-          платформы для фанатов вселенной Half-Life !\
+          Вторая глава Black Mesa: Blue Shift уже доступна на ModDB и Steam
+          Workshop!
 
-          **Выход главы намечен на 16 июля!**
-      - type: youtubeBlock
-        id: 86HrlOHIMRw
+
+          **Где скачать:**
+
+
+          ModDB:\
+
+          [https://www.moddb.com/mods/black-mesa-blue-shift-rema..](https://vk.com/away.php?to=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fblack-mesa-blue-shift-remake%2Fnews%2Fchapter-2-insecurity-release&post=-139374457_2241&cc_key= "https\://www.moddb.com/mods/black-mesa-blue-shift-remake/news/chapter-2-insecurity-release")
+
+
+          Steam Workshop:\
+
+          [https://steamcommunity.com/sharedfiles/filedetails/?i..](https://vk.com/away.php?to=https%3A%2F%2Fsteamcommunity.com%2Fsharedfiles%2Ffiledetails%2F%3Fid%3D2424633574&post=-139374457_2241&cc_key= "https\://steamcommunity.com/sharedfiles/filedetails/?id=2424633574")
+
+
+          Заходите на наш сервер в Discord: [https://discord.gg/uhdTxP5Cuw](https://vk.com/away.php?to=https%3A%2F%2Fdiscord.gg%2FuhdTxP5Cuw&post=-139374457_2241&cc_key=)
   - title: О нас
     blocks:
       - type: textBlock
