@@ -58,7 +58,7 @@ blocks:
 
       * And more...
   - type: youtubeBlock
-    id: KLsxSwPlFro&t
+    id: KLsxSwPlFro
   - type: stringBlock
     align: center
     string: "Where to download the mod:"

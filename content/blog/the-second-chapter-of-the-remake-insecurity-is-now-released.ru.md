@@ -55,7 +55,7 @@ blocks:
 
       * И больше...
   - type: youtubeBlock
-    id: KLsxSwPlFro&t
+    id: KLsxSwPlFro
   - type: stringBlock
     align: center
     string: "Где скачать мод:"
