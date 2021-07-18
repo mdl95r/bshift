@@ -1,5 +1,5 @@
 ---
-title: Dev notes part 1.1
+title: Dev notes part 2
 desc: "This is the second part of Black Mesa: Blue Shift development history. We
   can’t just make a mod without some easter eggs. These models show the
   locations from yet unreleased Azure Sheep: Part Two and abandoned Hope of
@@ -14,7 +14,6 @@ tags:
   - part1.1
   - showcase
   - chapter1
-  - chapter2
 blocks:
   - type: textImageBlock
     img: /img/uploads/4vokwwn42hk.jpg

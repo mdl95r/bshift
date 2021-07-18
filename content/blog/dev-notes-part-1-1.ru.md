@@ -1,12 +1,12 @@
 ---
-title: Записки разработчика часть 1.1
-desc: "Это 1.1 часть истории разработки Black Mesa: Blue Shift. Мы не можем
+title: Записки разработчика часть 2
+desc: "Это 2 часть истории разработки Black Mesa: Blue Shift. Мы не можем
   сделать мод без пасхалок. На этих моделях показаны локации из еще не
   выпущенных «Azure Sheep: часть вторая» и заброшенной «Hope of Rescue», которые
   разрабатывались в далеком 2017 году."
 image:
   img: /img/uploads/yz3hxdrgf_s.jpg
-  alt: "Это 1.1 часть истории разработки Black Mesa: Blue Shift."
+  alt: "Это 2 часть истории разработки Black Mesa: Blue Shift."
 date: 2021-07-18T11:21:00.776Z
 links: true
 tags:
@@ -14,7 +14,6 @@ tags:
   - part1.1
   - showcase
   - chapter1
-  - chapter2
 blocks:
   - type: textImageBlock
     text: >-
