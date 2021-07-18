@@ -14,6 +14,7 @@ tags:
   - part1.1
   - showcase
   - chapter1
+  - chapter2
 blocks:
   - type: textImageBlock
     text: >-
