@@ -7,7 +7,7 @@ desc: "Это 1.1 часть истории разработки Black Mesa: Blu
 image:
   img: /img/uploads/yz3hxdrgf_s.jpg
   alt: "Это 1.1 часть истории разработки Black Mesa: Blue Shift."
-date: 2021-07-15T20:12:35.673Z
+date: 2021-07-18T11:21:00.776Z
 links: true
 tags:
   - devnotes

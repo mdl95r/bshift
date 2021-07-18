@@ -7,7 +7,7 @@ desc: "This is the second part of Black Mesa: Blue Shift development history. We
 image:
   img: /img/uploads/yz3hxdrgf_s.jpg
   alt: "This is the second part of Black Mesa: Blue Shift development history."
-date: 2021-07-15T20:12:35.646Z
+date: 2021-07-18T11:20:59.832Z
 links: true
 tags:
   - devnotes
