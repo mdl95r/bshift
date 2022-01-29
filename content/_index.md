@@ -73,20 +73,20 @@ sections:
     blocks:
       - type: mediaBlock
         value:
-          - img: /img/uploads/12thjl-1.jpg
-            alt: "Insecurity - Black Mesa: Blue Shift"
-          - img: /img/uploads/12thjl-5.jpg
-            alt: "Insecurity - Black Mesa: Blue Shift"
-          - alt: "Insecurity - Black Mesa: Blue Shift"
-            img: /img/uploads/12thjl-4.jpg
+          - img: /img/uploads/cf-1-mdb_fx.jpg
+            alt: "Captive Freight - Black Mesa: Blue Shift"
+          - img: /img/uploads/capfr-1.jpg
+            alt: "Captive Freight - Black Mesa: Blue Shift"
+          - alt: "Duty Calls - Black Mesa: Blue Shift"
+            img: /img/uploads/mdb-dc-last.jpg
       - type: mediaBlock
         value:
-          - img: /img/uploads/12thjl-6.png
-            alt: "Insecurity - Black Mesa: Blue Shift"
-          - img: /img/uploads/12thjl-3.jpg
-            alt: "Black Mesa: Blue Shift - Insecurity"
-          - alt: "Black Mesa: Blue Shift - Insecurity"
-            img: /img/uploads/12thjl-2.jpg
+          - img: /img/uploads/base-ch3.jpg
+            alt: "Chapter 3 Release Announcement - Black Mesa: Blue Shift"
+          - img: /img/uploads/mdb-dc-x2.jpg
+            alt: "Black Mesa: Blue Shift - Duty Calls"
+          - alt: "Black Mesa: Blue Shift - Duty Calls"
+            img: /img/uploads/321_1.jpg
   - title: other projects
     blocks:
       - type: headingImgLink
