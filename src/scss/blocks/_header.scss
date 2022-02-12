@@ -1,13 +1,16 @@
 .header  {
+	position: relative;
 	display: flex;
     align-items: center;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 1000;
 	width: 100%;
 	min-height: 50px;
 	background: $primary-bg-color;
+	&_fixed {
+		position: fixed;
+		left: 0;
+		z-index: 1000;
+		animation: offsetHender .4s;
+	}
 	&__wrap-items {
 		display: flex;
 		align-items: center;
@@ -33,7 +36,7 @@
 			background: $primary-bg-color-hover;
 			&_active {
 				left: 0;
-				transition: .4s;
+				transition: left .4s;
 			}
 			@media (min-width: $lg) {
 				display: flex;

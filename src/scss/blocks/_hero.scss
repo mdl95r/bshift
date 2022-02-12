@@ -1,7 +1,7 @@
 .hero, .slider-block {
-	&:not(.slider-block) {
-		margin-top: 50px;
-	}
+	// &:not(.slider-block) {
+	// 	margin-top: 51px;
+	// }
 	.slider-block {
 		&__item {
 			img {
@@ -22,7 +22,7 @@
 				height: 350px;
 			}
 			@media (min-width: $lg) {
-				height: 500px;
+				height: 600px;
 			}
 		}
 	}

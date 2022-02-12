@@ -2,6 +2,7 @@
 title: "Black Mesa: Blue Shift | Hecu Collective"
 img: img/uploads/Logov0.4-FULL-ModDB_1200.png
 alt: "Black Mesa: Blue Shift logo"
+siteInfoText: Hello everyone. The domain on which this site is located expires on 03/15/22. From 16.03 the site will be available at <a href="https://mdl95r.github.io/bshift/" title="https://mdl95r.github.io/bshift/"><strong>https://mdl95r.github.io/bshift/</strong></a>
 sections:
   - title: about project
     blocks:

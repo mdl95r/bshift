@@ -1,0 +1,26 @@
+.site-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background: #343d49;
+    padding: 20px;
+    @media (min-width: $lg) {
+        padding: 20px 60px;
+    }
+    &_hidden {
+        display: none;
+    }
+    &__content {
+        color: #b7c7e2;
+        line-height: 1.3;
+        padding-right: 20px;
+    }
+    &__btn {
+        flex-shrink: 0;
+        width: 30px;
+        height: 30px;
+        font-size: 30px;
+        color: #fff;
+    }
+}

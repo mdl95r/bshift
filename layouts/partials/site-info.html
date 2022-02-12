@@ -1,0 +1,8 @@
+{{ with  .Params.siteInfoText }}
+	<div class="js-site-info site-info site-info_hidden">
+		<div class="site-info__content">
+			{{- . | safeHTML -}}
+		</div>
+		<button class="site-info__btn js-close-btn" title="Close">×</button>
+	</div>
+{{ end }}

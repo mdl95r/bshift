@@ -2,6 +2,7 @@
 title: "Black Mesa: Blue Shift | Hecu Collective"
 img: img/uploads/Logov0.4-FULL-ModDB_1200.png
 alt: "Black Mesa: Blue Shift logo"
+siteInfoText: Всем привет. У домена, на котором находится данный сайт, заканчивается срок регистрации - 15.03.22. С 16.03 сайт будет доступен по адресу <a href="https://mdl95r.github.io/bshift/"><strong>https://mdl95r.github.io/bshift/</strong></a>
 sections:
   - title: О проекте
     blocks:
