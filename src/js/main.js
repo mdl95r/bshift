@@ -7,6 +7,8 @@ import header from './modules/header';
 import initScrolling from './modules/scroll-to-section';
 import upBtn from './modules/upBtn';
 import sharingBtn from './modules/share-btns';
+import initFixedHeader from './modules/fixedHeader';
+import initSiteInfo from './modules/siteInfo';
 
 document.addEventListener('DOMContentLoaded', () => {
 	initCookiePopup();
@@ -18,4 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	initGallery();
 	upBtn();
 	sharingBtn();
+	initFixedHeader();
+	initSiteInfo();
 })
