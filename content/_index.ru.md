@@ -2,7 +2,6 @@
 title: "Black Mesa: Blue Shift | Hecu Collective"
 img: img/uploads/Logov0.4-FULL-ModDB_1200.png
 alt: "Black Mesa: Blue Shift logo"
-siteInfoText: Всем привет. У домена, на котором находится данный сайт, заканчивается срок регистрации - 15.03.22. С 16.03 сайт будет доступен по адресу <a href="https://mdl95r.github.io/bshift/"><strong>https://mdl95r.github.io/bshift/</strong></a>
 sections:
   - title: О проекте
     blocks:
@@ -73,20 +72,20 @@ sections:
     blocks:
       - type: mediaBlock
         value:
-          - img: /img/uploads/cf-1-mdb_fx.jpg
+          - img: img/uploads/cf-1-mdb_fx.jpg
             alt: "Captive Freight - Black Mesa: Blue Shift"
-          - img: /img/uploads/capfr-1.jpg
+          - img: img/uploads/capfr-1.jpg
             alt: "Captive Freight - Black Mesa: Blue Shift"
-          - img: /img/uploads/mdb-dc-last.jpg
+          - img: img/uploads/mdb-dc-last.jpg
             alt: "Duty Calls - Black Mesa: Blue Shift"
       - type: mediaBlock
         value:
-          - img: /img/uploads/base-ch3.jpg
+          - img: img/uploads/base-ch3.jpg
             alt: "Chapter 3 Release Announcement - Black Mesa: Blue Shift"
-          - img: /img/uploads/mdb-dc-x2.jpg
+          - img: img/uploads/mdb-dc-x2.jpg
             alt: "Black Mesa: Blue Shift - Duty Calls"
           - alt: "Black Mesa: Blue Shift - Duty Calls"
-            img: /img/uploads/321.jpg
+            img: img/uploads/321.jpg
   - title: Еще проекты
     blocks:
       - type: headingImgLink
