@@ -54,7 +54,7 @@ blocks:
 
       * New soundtrack from our great composer, Daver, one of which you can hear down there;
 
-      * You can read the mod description, [developer blog](https://blueshift.hecucollective.com/blog/) and see the people involved in the development of this remake in the last two tabs in the new UI;
+      * You can read the mod description, [developer blog](blog/) and see the people involved in the development of this remake in the last two tabs in the new UI;
 
       * And more...
   - type: youtubeBlock
