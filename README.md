@@ -1,4 +1,4 @@
-## Here are sources of the site https://blueshift.hecucollective.com
+## Here are sources of the site https://mdl95r.github.io/bshift/
 ### Stack:
 Hugo static site generator & Netlify CMS
  
